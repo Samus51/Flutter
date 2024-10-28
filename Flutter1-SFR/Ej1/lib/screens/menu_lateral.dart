@@ -45,7 +45,7 @@ class MenuLateral extends StatelessWidget {
             color: const Color(0xFF6B7FD7), 
             child: ListTile(
               title: const Text(
-                "Ejercicio 1.2",
+                "Ejercicio 2",
                 style: TextStyle(color: Colors.white,), 
               ),
               onTap: () {
@@ -59,7 +59,7 @@ class MenuLateral extends StatelessWidget {
             color: const Color(0xFF6B7FD7), 
             child: ListTile(
               title: const Text(
-                "Ejercicio 1.3",
+                "Ejercicio 3",
                 style: TextStyle(color: Colors.white),
               ),
               onTap: () {
@@ -73,7 +73,7 @@ class MenuLateral extends StatelessWidget {
             color: const Color(0xFF6B7FD7),
             child: ListTile(
               title: const Text(
-                "Ejercicio 1.4",
+                "Ejercicio 4",
                 style: TextStyle(color: Colors.white),
               ),
               onTap: () {

@@ -15,14 +15,12 @@ class Enlace6 extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.spaceAround,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            // Primera fila (1 icono)
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 buildIconColumn("assets/images/ibai.jpg", "Icono 1"),
               ],
             ),
-            // Segunda fila (2 iconos)
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
@@ -30,7 +28,6 @@ class Enlace6 extends StatelessWidget {
                 buildIconColumn("assets/images/ibai.jpg", "Icono 3"),
               ],
             ),
-            // Tercera fila (3 iconos)
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
@@ -54,7 +51,7 @@ class Enlace6 extends StatelessWidget {
           width: 60,
           height: 60,
         ),
-        const SizedBox(height: 8), // Espacio entre el icono y el texto
+        const SizedBox(height: 8), 
         Text(label, style: const TextStyle(fontSize: 14)),
       ],
     );

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'instagram/GridViewWidget.dart';
+import 'instagram/grid_view_widget.dart';
 import 'instagram/LastFootWidget.dart';
 import 'instagram/actions_widget.dart';
 import 'instagram/footer_widget.dart';

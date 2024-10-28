@@ -43,7 +43,7 @@ class ProfileWidget extends StatelessWidget {
             ),
           ],
         ),
-        const SizedBox(height: 10), // Espacio entre filas
+        const SizedBox(height: 10), 
         const Row(
           mainAxisAlignment: MainAxisAlignment.start,
           children: [
@@ -61,16 +61,15 @@ class ProfileWidget extends StatelessWidget {
               padding: const EdgeInsets.all(10),
               child: Container(
                 width: 350,
-                height: 25, // Altura ajustada para el texto
+                height: 25,
                 decoration: BoxDecoration(
                   border: Border.all(color: Colors.black, width: 2),
                 ),
                 child: const Center(
-                  // Centrar el texto dentro del container
                   child: Text(
                     "Editar mi perfil",
                     textAlign: TextAlign.center,
-                    style: TextStyle(fontSize: 16), // Estilo del texto
+                    style: TextStyle(fontSize: 16), 
                   ),
                 ),
               ),

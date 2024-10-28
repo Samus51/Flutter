@@ -8,8 +8,7 @@ class FooterWidget extends StatelessWidget {
     return Column(
       children: [
         Padding(
-          padding:
-              const EdgeInsets.symmetric(vertical: 20), 
+          padding: const EdgeInsets.symmetric(vertical: 20),
           child: Container(
             width: 450,
             height: 1,
@@ -17,8 +16,7 @@ class FooterWidget extends StatelessWidget {
               color: Colors.white,
               border: Border(
                 top: BorderSide(
-                  color: Colors.grey
-                      .withOpacity(0.3), 
+                  color: Colors.grey.withOpacity(0.3),
                   width: 2,
                 ),
               ),
@@ -39,7 +37,7 @@ class FooterWidget extends StatelessWidget {
           ],
         ),
         Padding(
-          padding: const EdgeInsets.only(top: 20), // Espacio arriba
+          padding: const EdgeInsets.only(top: 20),
           child: Row(
             mainAxisAlignment: MainAxisAlignment.start,
             children: [
@@ -51,7 +49,7 @@ class FooterWidget extends StatelessWidget {
                   border: Border(
                     top: BorderSide(
                       color: Colors.grey
-                          .withOpacity(0.7), // Ajustar la opacidad del color
+                          .withOpacity(0.7), 
                       width: 2,
                     ),
                   ),
