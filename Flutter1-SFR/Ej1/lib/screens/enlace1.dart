@@ -10,13 +10,13 @@ class Enlace1 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        toolbarHeight: 80, // Ajusta la altura del AppBar si es necesario
-        title: const Text('Ejercicio 1'), // Se usará el color del tema
+        toolbarHeight: 80, 
+        title: const Text('Ejercicio 1'), 
       ),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
-          mainAxisSize: MainAxisSize.min, // Establecer el tamaño mínimo
+          mainAxisSize: MainAxisSize.min, 
           children: <Widget>[
             Text(
               'Samuel Fernández Rodríguez',
@@ -26,8 +26,7 @@ class Enlace1 extends StatelessWidget {
             ),
             const SizedBox(height: 40),
             SelectableText(
-              // Permite al usuario seleccionar y copiar el texto
-              'https://github.com/Samus51/2DAM.git',
+              'https://github.com/Samus51/Flutter.git',
               style: GoogleFonts.lato(
                 textStyle: const TextStyle(
                   fontSize: 20,
@@ -35,7 +34,7 @@ class Enlace1 extends StatelessWidget {
                   decoration: TextDecoration.underline,
                 ),
               ),
-              textAlign: TextAlign.center, // Asegura que el texto esté centrado
+              textAlign: TextAlign.center, 
             ),
           ],
         ),
