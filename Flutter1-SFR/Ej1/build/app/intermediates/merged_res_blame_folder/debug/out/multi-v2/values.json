@@ -4,6 +4,25 @@
             "outputFile": "com.example.holamundo.app-mergeDebugResources-25:/values/values.xml",
             "map": [
                 {
+                    "source": "C:\\Users\\Alumnado2DAM\\Desktop\\RepoFlutter\\Flutter1-SFR\\Ej1\\android\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "3,14",
+                        "startColumns": "4,4",
+                        "startOffsets": "176,832",
+                        "endLines": "7,16",
+                        "endColumns": "12,12",
+                        "endOffsets": "483,998"
+                    },
+                    "to": {
+                        "startLines": "165,169",
+                        "startColumns": "4,4",
+                        "startOffsets": "8569,8750",
+                        "endLines": "168,171",
+                        "endColumns": "12,12",
+                        "endOffsets": "8745,8914"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Alumnado2DAM\\.gradle\\caches\\8.9\\transforms\\3d8a751b52c207999b947b3a82e34f2c\\transformed\\fragment-1.7.1\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,4,5,10",
@@ -71,25 +90,6 @@
                         "startOffsets": "7621",
                         "endColumns": "82",
                         "endOffsets": "7699"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Alumnado2DAM\\Desktop\\Repo2DAM\\Flutter1-SFR\\Ej1\\android\\app\\src\\main\\res\\values\\styles.xml",
-                    "from": {
-                        "startLines": "3,14",
-                        "startColumns": "4,4",
-                        "startOffsets": "176,832",
-                        "endLines": "7,16",
-                        "endColumns": "12,12",
-                        "endOffsets": "483,998"
-                    },
-                    "to": {
-                        "startLines": "165,169",
-                        "startColumns": "4,4",
-                        "startOffsets": "8569,8750",
-                        "endLines": "168,171",
-                        "endColumns": "12,12",
-                        "endOffsets": "8745,8914"
                     }
                 },
                 {

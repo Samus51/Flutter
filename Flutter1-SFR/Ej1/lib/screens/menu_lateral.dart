@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:holamundo/screens/enlace9.dart';
 import 'enlace8.dart';
 import 'enlace1.dart';
 import 'enlace2.dart';
@@ -132,6 +133,19 @@ class MenuLateral extends StatelessWidget {
                 Navigator.of(context).pop();
                 Navigator.of(context).push(MaterialPageRoute(
                     builder: (BuildContext context) =>  const Enlace8()));
+              },
+            ),
+          ),Ink(
+            color: const Color(0xFF6B7FD7),
+            child: ListTile(
+              title: const Text(
+                "Ejercicio 9",
+                style: TextStyle(color: Colors.white),
+              ),
+              onTap: () {
+                Navigator.of(context).pop();
+                Navigator.of(context).push(MaterialPageRoute(
+                    builder: (BuildContext context) => const RandomImages()));
               },
             ),
           ),
