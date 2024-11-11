@@ -1,0 +1,18 @@
+export '../drawer/menu_lateral.dart';
+export './Enlace1.dart';
+export './Enlace2.dart';
+export './Enlace3.dart';
+export './Enlace4.dart';
+export './Enlace5.dart';
+export './Enlace6.dart';
+export './Enlace7.dart';
+export './Enlace9.dart';
+export './instagram/home_screen.dart';
+export 'instagram/last_foot_widget.dart';
+export './instagram/actions_widget.dart';
+export './instagram/footer_widget.dart';
+export './instagram/header_widget.dart';
+export './instagram/grid_view_widget.dart';
+export './instagram/profile_widget.dart';
+export './instagram/rectangles_widget.dart';
+

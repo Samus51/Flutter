@@ -1,0 +1,4 @@
+#Mon Oct 07 13:08:14 CEST 2024
+base.0=C\:\\Users\\Alumnado2DAM\\Desktop\\Flutter1-SFR\\Ej1\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
