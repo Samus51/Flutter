@@ -3,8 +3,8 @@
 # min_api: 21
 # common_typos_disable
 # {"id":"com.android.tools.r8.mapping","version":"2.2"}
-# pg_map_id: e890953
-# pg_map_hash: SHA-256 e8909532a5bbd7d4412e2cc5bd84ed0fe59e73c3d5ef1aa50a34348a9457082e
+# pg_map_id: 1142106
+# pg_map_hash: SHA-256 114210636993d9072826e5bf414918e571dc50f35156d904f6cf9c3ad02a5375
 _COROUTINE.ArtificialStackFrames -> a.a:
     void <init>() -> <init>
     1:1:java.lang.StackTraceElement coroutineBoundary():0:0 -> a
@@ -873,7 +873,7 @@ androidx.core.view.WindowInsetsCompat$BuilderImpl29$$ExternalSyntheticApiModelOu
 androidx.core.view.WindowInsetsCompat$BuilderImpl29$$ExternalSyntheticApiModelOutline6 -> androidx.core.view.p:
 # {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
 # {"id":"com.android.tools.r8.synthesized"}
-    1:1:android.view.WindowInsets$Builder androidx.core.view.WindowInsetsCompat$BuilderImpl29$$InternalSyntheticApiModelOutline$8$a204b8eefc41564daf6595e28b0232288c13e496630a36581a3f2c9667b5b6be$0.m():0:0 -> a
+    1:1:android.view.WindowInsets$Builder androidx.core.view.WindowInsetsCompat$BuilderImpl29$$InternalSyntheticApiModelOutline$9$a204b8eefc41564daf6595e28b0232288c13e496630a36581a3f2c9667b5b6be$0.m():0:0 -> a
       # {"id":"com.android.tools.r8.synthesized"}
 androidx.core.view.WindowInsetsCompat$BuilderImpl30 -> androidx.core.view.i$e:
 androidx.core.view.WindowInsetsCompat$Impl -> androidx.core.view.i$l:
@@ -1317,7 +1317,7 @@ androidx.lifecycle.Lifecycling -> androidx.lifecycle.o:
 androidx.lifecycle.Lifecycling$$ExternalSyntheticThrowCCEIfNotNull0 -> androidx.lifecycle.n:
 # {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
 # {"id":"com.android.tools.r8.synthesized"}
-    1:1:void androidx.lifecycle.Lifecycling$$InternalSyntheticThrowCCEIfNotNull$8$9f5d826c7cb3654602020ecf8a22286878ec845e76a62dd23dd66ab85161c0f5$0.m(java.lang.Object):0:0 -> a
+    1:1:void androidx.lifecycle.Lifecycling$$InternalSyntheticThrowCCEIfNotNull$9$9f5d826c7cb3654602020ecf8a22286878ec845e76a62dd23dd66ab85161c0f5$0.m(java.lang.Object):0:0 -> a
       # {"id":"com.android.tools.r8.synthesized"}
 androidx.lifecycle.MethodCallsLogger -> androidx.lifecycle.p:
     java.util.Map calledMethods -> a
@@ -3979,20 +3979,20 @@ io.flutter.embedding.engine.dart.DartMessenger$SerialTaskQueue -> y.c$h:
 io.flutter.embedding.engine.dart.DartMessenger$SerialTaskQueue$$ExternalSyntheticLambda0 -> y.d:
 # {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
 # {"id":"com.android.tools.r8.synthesized"}
-    io.flutter.embedding.engine.dart.DartMessenger$SerialTaskQueue io.flutter.embedding.engine.dart.DartMessenger$SerialTaskQueue$$InternalSyntheticLambda$4$87f003a9f337bebdd0ba7a08cc7e573e8bd1ce25d26d2f3d3923593655f1df5b$0.f$0 -> e
-    1:1:void io.flutter.embedding.engine.dart.DartMessenger$SerialTaskQueue$$InternalSyntheticLambda$4$87f003a9f337bebdd0ba7a08cc7e573e8bd1ce25d26d2f3d3923593655f1df5b$0.<init>(io.flutter.embedding.engine.dart.DartMessenger$SerialTaskQueue):0:0 -> <init>
+    io.flutter.embedding.engine.dart.DartMessenger$SerialTaskQueue io.flutter.embedding.engine.dart.DartMessenger$SerialTaskQueue$$InternalSyntheticLambda$5$87f003a9f337bebdd0ba7a08cc7e573e8bd1ce25d26d2f3d3923593655f1df5b$0.f$0 -> e
+    1:1:void io.flutter.embedding.engine.dart.DartMessenger$SerialTaskQueue$$InternalSyntheticLambda$5$87f003a9f337bebdd0ba7a08cc7e573e8bd1ce25d26d2f3d3923593655f1df5b$0.<init>(io.flutter.embedding.engine.dart.DartMessenger$SerialTaskQueue):0:0 -> <init>
       # {"id":"com.android.tools.r8.synthesized"}
       # {"id":"com.android.tools.r8.residualsignature","signature":"(Ly/c$h;)V"}
-    1:1:void io.flutter.embedding.engine.dart.DartMessenger$SerialTaskQueue$$InternalSyntheticLambda$4$87f003a9f337bebdd0ba7a08cc7e573e8bd1ce25d26d2f3d3923593655f1df5b$0.run():0:0 -> run
+    1:1:void io.flutter.embedding.engine.dart.DartMessenger$SerialTaskQueue$$InternalSyntheticLambda$5$87f003a9f337bebdd0ba7a08cc7e573e8bd1ce25d26d2f3d3923593655f1df5b$0.run():0:0 -> run
       # {"id":"com.android.tools.r8.synthesized"}
 io.flutter.embedding.engine.dart.DartMessenger$SerialTaskQueue$$ExternalSyntheticLambda1 -> y.e:
 # {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
 # {"id":"com.android.tools.r8.synthesized"}
-    io.flutter.embedding.engine.dart.DartMessenger$SerialTaskQueue io.flutter.embedding.engine.dart.DartMessenger$SerialTaskQueue$$InternalSyntheticLambda$5$3ee6262ba64b1eee4936869951254b05afe91be0eb2ccc94cd0abcb4f0e09adb$0.f$0 -> e
-    1:1:void io.flutter.embedding.engine.dart.DartMessenger$SerialTaskQueue$$InternalSyntheticLambda$5$3ee6262ba64b1eee4936869951254b05afe91be0eb2ccc94cd0abcb4f0e09adb$0.<init>(io.flutter.embedding.engine.dart.DartMessenger$SerialTaskQueue):0:0 -> <init>
+    io.flutter.embedding.engine.dart.DartMessenger$SerialTaskQueue io.flutter.embedding.engine.dart.DartMessenger$SerialTaskQueue$$InternalSyntheticLambda$6$3ee6262ba64b1eee4936869951254b05afe91be0eb2ccc94cd0abcb4f0e09adb$0.f$0 -> e
+    1:1:void io.flutter.embedding.engine.dart.DartMessenger$SerialTaskQueue$$InternalSyntheticLambda$6$3ee6262ba64b1eee4936869951254b05afe91be0eb2ccc94cd0abcb4f0e09adb$0.<init>(io.flutter.embedding.engine.dart.DartMessenger$SerialTaskQueue):0:0 -> <init>
       # {"id":"com.android.tools.r8.synthesized"}
       # {"id":"com.android.tools.r8.residualsignature","signature":"(Ly/c$h;)V"}
-    1:1:void io.flutter.embedding.engine.dart.DartMessenger$SerialTaskQueue$$InternalSyntheticLambda$5$3ee6262ba64b1eee4936869951254b05afe91be0eb2ccc94cd0abcb4f0e09adb$0.run():0:0 -> run
+    1:1:void io.flutter.embedding.engine.dart.DartMessenger$SerialTaskQueue$$InternalSyntheticLambda$6$3ee6262ba64b1eee4936869951254b05afe91be0eb2ccc94cd0abcb4f0e09adb$0.run():0:0 -> run
       # {"id":"com.android.tools.r8.synthesized"}
 io.flutter.embedding.engine.dart.DartMessenger$TaskQueueFactory -> y.c$i:
     io.flutter.embedding.engine.dart.DartMessenger$DartMessengerTaskQueue makeBackgroundTaskQueue(io.flutter.plugin.common.BinaryMessenger$TaskQueueOptions) -> a
@@ -4277,12 +4277,12 @@ io.flutter.embedding.engine.renderer.FlutterRenderer$ImageReaderSurfaceProducer$
 io.flutter.embedding.engine.renderer.FlutterRenderer$ImageReaderSurfaceProducer$$ExternalSyntheticApiModelOutline6 -> io.flutter.embedding.engine.renderer.g:
 # {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
 # {"id":"com.android.tools.r8.synthesized"}
-    1:1:android.media.ImageReader$Builder io.flutter.embedding.engine.renderer.FlutterRenderer$ImageReaderSurfaceProducer$$InternalSyntheticApiModelOutline$8$38fd5b78e06d091b60f0e5b6a1d96357f24d81029ca46c23e1073e66c97166de$0.m(int,int):0:0 -> a
+    1:1:android.media.ImageReader$Builder io.flutter.embedding.engine.renderer.FlutterRenderer$ImageReaderSurfaceProducer$$InternalSyntheticApiModelOutline$9$38fd5b78e06d091b60f0e5b6a1d96357f24d81029ca46c23e1073e66c97166de$0.m(int,int):0:0 -> a
       # {"id":"com.android.tools.r8.synthesized"}
 io.flutter.embedding.engine.renderer.FlutterRenderer$ImageReaderSurfaceProducer$$ExternalSyntheticApiModelOutline7 -> io.flutter.embedding.engine.renderer.h:
 # {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
 # {"id":"com.android.tools.r8.synthesized"}
-    1:1:void io.flutter.embedding.engine.renderer.FlutterRenderer$ImageReaderSurfaceProducer$$InternalSyntheticApiModelOutline$8$38fd5b78e06d091b60f0e5b6a1d96357f24d81029ca46c23e1073e66c97166de$1.m():0:0 -> a
+    1:1:void io.flutter.embedding.engine.renderer.FlutterRenderer$ImageReaderSurfaceProducer$$InternalSyntheticApiModelOutline$9$38fd5b78e06d091b60f0e5b6a1d96357f24d81029ca46c23e1073e66c97166de$1.m():0:0 -> a
       # {"id":"com.android.tools.r8.synthesized"}
 io.flutter.embedding.engine.renderer.FlutterRenderer$ImageReaderSurfaceProducer$PerImage -> io.flutter.embedding.engine.renderer.FlutterRenderer$ImageReaderSurfaceProducer$a:
     android.media.Image image -> a
@@ -5409,12 +5409,12 @@ io.flutter.plugin.editing.ImeSyncDeferringInsetsCallback$AnimationCallback$$Exte
 io.flutter.plugin.editing.ImeSyncDeferringInsetsCallback$AnimationCallback$$ExternalSyntheticApiModelOutline4 -> io.flutter.plugin.editing.g:
 # {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
 # {"id":"com.android.tools.r8.synthesized"}
-    1:1:android.view.WindowInsets$Builder io.flutter.plugin.editing.ImeSyncDeferringInsetsCallback$AnimationCallback$$InternalSyntheticApiModelOutline$8$b71cd158c488321664a8a05513cc1b2518b00c695b826cc4b8c6f88bf5c5e43d$0.m(android.view.WindowInsets):0:0 -> a
+    1:1:android.view.WindowInsets$Builder io.flutter.plugin.editing.ImeSyncDeferringInsetsCallback$AnimationCallback$$InternalSyntheticApiModelOutline$9$b71cd158c488321664a8a05513cc1b2518b00c695b826cc4b8c6f88bf5c5e43d$0.m(android.view.WindowInsets):0:0 -> a
       # {"id":"com.android.tools.r8.synthesized"}
 io.flutter.plugin.editing.ImeSyncDeferringInsetsCallback$AnimationCallback$$ExternalSyntheticApiModelOutline5 -> io.flutter.plugin.editing.h:
 # {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
 # {"id":"com.android.tools.r8.synthesized"}
-    1:1:void io.flutter.plugin.editing.ImeSyncDeferringInsetsCallback$AnimationCallback$$InternalSyntheticApiModelOutline$8$b71cd158c488321664a8a05513cc1b2518b00c695b826cc4b8c6f88bf5c5e43d$1.m():0:0 -> a
+    1:1:void io.flutter.plugin.editing.ImeSyncDeferringInsetsCallback$AnimationCallback$$InternalSyntheticApiModelOutline$9$b71cd158c488321664a8a05513cc1b2518b00c695b826cc4b8c6f88bf5c5e43d$1.m():0:0 -> a
       # {"id":"com.android.tools.r8.synthesized"}
 io.flutter.plugin.editing.ImeSyncDeferringInsetsCallback$InsetsListener -> io.flutter.plugin.editing.ImeSyncDeferringInsetsCallback$b:
     io.flutter.plugin.editing.ImeSyncDeferringInsetsCallback this$0 -> a
@@ -5765,12 +5765,12 @@ io.flutter.plugin.localization.LocalizationPlugin$$ExternalSyntheticApiModelOutl
 io.flutter.plugin.localization.LocalizationPlugin$$ExternalSyntheticApiModelOutline4 -> h0.e:
 # {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
 # {"id":"com.android.tools.r8.synthesized"}
-    1:1:java.util.Locale$LanguageRange io.flutter.plugin.localization.LocalizationPlugin$$InternalSyntheticApiModelOutline$8$19b1336f100aff430c2aea63e9faf3205518a39db2d973e1b83afa2f34efd940$0.m(java.lang.String):0:0 -> a
+    1:1:java.util.Locale$LanguageRange io.flutter.plugin.localization.LocalizationPlugin$$InternalSyntheticApiModelOutline$9$19b1336f100aff430c2aea63e9faf3205518a39db2d973e1b83afa2f34efd940$0.m(java.lang.String):0:0 -> a
       # {"id":"com.android.tools.r8.synthesized"}
 io.flutter.plugin.localization.LocalizationPlugin$$ExternalSyntheticApiModelOutline5 -> h0.f:
 # {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
 # {"id":"com.android.tools.r8.synthesized"}
-    1:1:void io.flutter.plugin.localization.LocalizationPlugin$$InternalSyntheticApiModelOutline$8$19b1336f100aff430c2aea63e9faf3205518a39db2d973e1b83afa2f34efd940$3.m():0:0 -> a
+    1:1:void io.flutter.plugin.localization.LocalizationPlugin$$InternalSyntheticApiModelOutline$9$19b1336f100aff430c2aea63e9faf3205518a39db2d973e1b83afa2f34efd940$3.m():0:0 -> a
       # {"id":"com.android.tools.r8.synthesized"}
 io.flutter.plugin.localization.LocalizationPlugin$1 -> h0.g$a:
     io.flutter.plugin.localization.LocalizationPlugin this$0 -> a
@@ -5893,12 +5893,12 @@ io.flutter.plugin.platform.PlatformPlugin$$ExternalSyntheticApiModelOutline2 -> 
 io.flutter.plugin.platform.PlatformPlugin$$ExternalSyntheticApiModelOutline3 -> io.flutter.plugin.platform.f:
 # {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
 # {"id":"com.android.tools.r8.synthesized"}
-    1:1:android.app.ActivityManager$TaskDescription io.flutter.plugin.platform.PlatformPlugin$$InternalSyntheticApiModelOutline$8$b2a4e8a5d811cba4baa05d0d4d81eb75d968beda73bb8093557ff22eebe40135$0.m(java.lang.String,int,int):0:0 -> a
+    1:1:android.app.ActivityManager$TaskDescription io.flutter.plugin.platform.PlatformPlugin$$InternalSyntheticApiModelOutline$9$b2a4e8a5d811cba4baa05d0d4d81eb75d968beda73bb8093557ff22eebe40135$0.m(java.lang.String,int,int):0:0 -> a
       # {"id":"com.android.tools.r8.synthesized"}
 io.flutter.plugin.platform.PlatformPlugin$$ExternalSyntheticApiModelOutline4 -> io.flutter.plugin.platform.g:
 # {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
 # {"id":"com.android.tools.r8.synthesized"}
-    1:1:void io.flutter.plugin.platform.PlatformPlugin$$InternalSyntheticApiModelOutline$8$b2a4e8a5d811cba4baa05d0d4d81eb75d968beda73bb8093557ff22eebe40135$1.m():0:0 -> a
+    1:1:void io.flutter.plugin.platform.PlatformPlugin$$InternalSyntheticApiModelOutline$9$b2a4e8a5d811cba4baa05d0d4d81eb75d968beda73bb8093557ff22eebe40135$1.m():0:0 -> a
       # {"id":"com.android.tools.r8.synthesized"}
 io.flutter.plugin.platform.PlatformPlugin$1 -> io.flutter.plugin.platform.h$a:
     io.flutter.plugin.platform.PlatformPlugin this$0 -> a
@@ -6232,118 +6232,128 @@ io.flutter.plugins.pathprovider.Messages$PathProviderApi -> k0.i$a:
     java.lang.String getApplicationDocumentsPath() -> d
     java.lang.String getApplicationSupportPath() -> f
     java.util.List getExternalStoragePaths(io.flutter.plugins.pathprovider.Messages$StorageDirectory) -> g
-      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lk0/i$b;)Ljava/util/List;"}
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lk0/i$c;)Ljava/util/List;"}
     java.util.List getExternalCachePaths() -> h
 io.flutter.plugins.pathprovider.Messages$PathProviderApi$$ExternalSyntheticLambda0 -> k0.a:
 # {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
 # {"id":"com.android.tools.r8.synthesized"}
-    io.flutter.plugins.pathprovider.Messages$PathProviderApi io.flutter.plugins.pathprovider.Messages$PathProviderApi$$InternalSyntheticLambda$2$3b37b83339974dd347b68fe5b235e9d3690f45e922a8888479de9ed059ddddbd$0.f$0 -> a
-    1:1:void io.flutter.plugins.pathprovider.Messages$PathProviderApi$$InternalSyntheticLambda$2$3b37b83339974dd347b68fe5b235e9d3690f45e922a8888479de9ed059ddddbd$0.<init>(io.flutter.plugins.pathprovider.Messages$PathProviderApi):0:0 -> <init>
+    io.flutter.plugins.pathprovider.Messages$PathProviderApi io.flutter.plugins.pathprovider.Messages$PathProviderApi$$InternalSyntheticLambda$3$42d3db6c0da2e6a03c0f2c4157d801fd268e129bea0637c3c7ce1639ea758416$0.f$0 -> a
+    1:1:void io.flutter.plugins.pathprovider.Messages$PathProviderApi$$InternalSyntheticLambda$3$42d3db6c0da2e6a03c0f2c4157d801fd268e129bea0637c3c7ce1639ea758416$0.<init>(io.flutter.plugins.pathprovider.Messages$PathProviderApi):0:0 -> <init>
       # {"id":"com.android.tools.r8.synthesized"}
       # {"id":"com.android.tools.r8.residualsignature","signature":"(Lk0/i$a;)V"}
-    1:1:void io.flutter.plugins.pathprovider.Messages$PathProviderApi$$InternalSyntheticLambda$2$3b37b83339974dd347b68fe5b235e9d3690f45e922a8888479de9ed059ddddbd$0.onMessage(java.lang.Object,io.flutter.plugin.common.BasicMessageChannel$Reply):0:0 -> a
+    1:1:void io.flutter.plugins.pathprovider.Messages$PathProviderApi$$InternalSyntheticLambda$3$42d3db6c0da2e6a03c0f2c4157d801fd268e129bea0637c3c7ce1639ea758416$0.onMessage(java.lang.Object,io.flutter.plugin.common.BasicMessageChannel$Reply):0:0 -> a
       # {"id":"com.android.tools.r8.synthesized"}
       # {"id":"com.android.tools.r8.residualsignature","signature":"(Ljava/lang/Object;Lg0/a$e;)V"}
 io.flutter.plugins.pathprovider.Messages$PathProviderApi$$ExternalSyntheticLambda1 -> k0.b:
 # {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
 # {"id":"com.android.tools.r8.synthesized"}
-    io.flutter.plugins.pathprovider.Messages$PathProviderApi io.flutter.plugins.pathprovider.Messages$PathProviderApi$$InternalSyntheticLambda$2$3b37b83339974dd347b68fe5b235e9d3690f45e922a8888479de9ed059ddddbd$1.f$0 -> a
-    1:1:void io.flutter.plugins.pathprovider.Messages$PathProviderApi$$InternalSyntheticLambda$2$3b37b83339974dd347b68fe5b235e9d3690f45e922a8888479de9ed059ddddbd$1.<init>(io.flutter.plugins.pathprovider.Messages$PathProviderApi):0:0 -> <init>
+    io.flutter.plugins.pathprovider.Messages$PathProviderApi io.flutter.plugins.pathprovider.Messages$PathProviderApi$$InternalSyntheticLambda$3$42d3db6c0da2e6a03c0f2c4157d801fd268e129bea0637c3c7ce1639ea758416$1.f$0 -> a
+    1:1:void io.flutter.plugins.pathprovider.Messages$PathProviderApi$$InternalSyntheticLambda$3$42d3db6c0da2e6a03c0f2c4157d801fd268e129bea0637c3c7ce1639ea758416$1.<init>(io.flutter.plugins.pathprovider.Messages$PathProviderApi):0:0 -> <init>
       # {"id":"com.android.tools.r8.synthesized"}
       # {"id":"com.android.tools.r8.residualsignature","signature":"(Lk0/i$a;)V"}
-    1:1:void io.flutter.plugins.pathprovider.Messages$PathProviderApi$$InternalSyntheticLambda$2$3b37b83339974dd347b68fe5b235e9d3690f45e922a8888479de9ed059ddddbd$1.onMessage(java.lang.Object,io.flutter.plugin.common.BasicMessageChannel$Reply):0:0 -> a
+    1:1:void io.flutter.plugins.pathprovider.Messages$PathProviderApi$$InternalSyntheticLambda$3$42d3db6c0da2e6a03c0f2c4157d801fd268e129bea0637c3c7ce1639ea758416$1.onMessage(java.lang.Object,io.flutter.plugin.common.BasicMessageChannel$Reply):0:0 -> a
       # {"id":"com.android.tools.r8.synthesized"}
       # {"id":"com.android.tools.r8.residualsignature","signature":"(Ljava/lang/Object;Lg0/a$e;)V"}
 io.flutter.plugins.pathprovider.Messages$PathProviderApi$$ExternalSyntheticLambda2 -> k0.c:
 # {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
 # {"id":"com.android.tools.r8.synthesized"}
-    io.flutter.plugins.pathprovider.Messages$PathProviderApi io.flutter.plugins.pathprovider.Messages$PathProviderApi$$InternalSyntheticLambda$2$3b37b83339974dd347b68fe5b235e9d3690f45e922a8888479de9ed059ddddbd$2.f$0 -> a
-    1:1:void io.flutter.plugins.pathprovider.Messages$PathProviderApi$$InternalSyntheticLambda$2$3b37b83339974dd347b68fe5b235e9d3690f45e922a8888479de9ed059ddddbd$2.<init>(io.flutter.plugins.pathprovider.Messages$PathProviderApi):0:0 -> <init>
+    io.flutter.plugins.pathprovider.Messages$PathProviderApi io.flutter.plugins.pathprovider.Messages$PathProviderApi$$InternalSyntheticLambda$3$42d3db6c0da2e6a03c0f2c4157d801fd268e129bea0637c3c7ce1639ea758416$2.f$0 -> a
+    1:1:void io.flutter.plugins.pathprovider.Messages$PathProviderApi$$InternalSyntheticLambda$3$42d3db6c0da2e6a03c0f2c4157d801fd268e129bea0637c3c7ce1639ea758416$2.<init>(io.flutter.plugins.pathprovider.Messages$PathProviderApi):0:0 -> <init>
       # {"id":"com.android.tools.r8.synthesized"}
       # {"id":"com.android.tools.r8.residualsignature","signature":"(Lk0/i$a;)V"}
-    1:1:void io.flutter.plugins.pathprovider.Messages$PathProviderApi$$InternalSyntheticLambda$2$3b37b83339974dd347b68fe5b235e9d3690f45e922a8888479de9ed059ddddbd$2.onMessage(java.lang.Object,io.flutter.plugin.common.BasicMessageChannel$Reply):0:0 -> a
+    1:1:void io.flutter.plugins.pathprovider.Messages$PathProviderApi$$InternalSyntheticLambda$3$42d3db6c0da2e6a03c0f2c4157d801fd268e129bea0637c3c7ce1639ea758416$2.onMessage(java.lang.Object,io.flutter.plugin.common.BasicMessageChannel$Reply):0:0 -> a
       # {"id":"com.android.tools.r8.synthesized"}
       # {"id":"com.android.tools.r8.residualsignature","signature":"(Ljava/lang/Object;Lg0/a$e;)V"}
 io.flutter.plugins.pathprovider.Messages$PathProviderApi$$ExternalSyntheticLambda3 -> k0.d:
 # {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
 # {"id":"com.android.tools.r8.synthesized"}
-    io.flutter.plugins.pathprovider.Messages$PathProviderApi io.flutter.plugins.pathprovider.Messages$PathProviderApi$$InternalSyntheticLambda$2$3b37b83339974dd347b68fe5b235e9d3690f45e922a8888479de9ed059ddddbd$3.f$0 -> a
-    1:1:void io.flutter.plugins.pathprovider.Messages$PathProviderApi$$InternalSyntheticLambda$2$3b37b83339974dd347b68fe5b235e9d3690f45e922a8888479de9ed059ddddbd$3.<init>(io.flutter.plugins.pathprovider.Messages$PathProviderApi):0:0 -> <init>
+    io.flutter.plugins.pathprovider.Messages$PathProviderApi io.flutter.plugins.pathprovider.Messages$PathProviderApi$$InternalSyntheticLambda$3$42d3db6c0da2e6a03c0f2c4157d801fd268e129bea0637c3c7ce1639ea758416$3.f$0 -> a
+    1:1:void io.flutter.plugins.pathprovider.Messages$PathProviderApi$$InternalSyntheticLambda$3$42d3db6c0da2e6a03c0f2c4157d801fd268e129bea0637c3c7ce1639ea758416$3.<init>(io.flutter.plugins.pathprovider.Messages$PathProviderApi):0:0 -> <init>
       # {"id":"com.android.tools.r8.synthesized"}
       # {"id":"com.android.tools.r8.residualsignature","signature":"(Lk0/i$a;)V"}
-    1:1:void io.flutter.plugins.pathprovider.Messages$PathProviderApi$$InternalSyntheticLambda$2$3b37b83339974dd347b68fe5b235e9d3690f45e922a8888479de9ed059ddddbd$3.onMessage(java.lang.Object,io.flutter.plugin.common.BasicMessageChannel$Reply):0:0 -> a
+    1:1:void io.flutter.plugins.pathprovider.Messages$PathProviderApi$$InternalSyntheticLambda$3$42d3db6c0da2e6a03c0f2c4157d801fd268e129bea0637c3c7ce1639ea758416$3.onMessage(java.lang.Object,io.flutter.plugin.common.BasicMessageChannel$Reply):0:0 -> a
       # {"id":"com.android.tools.r8.synthesized"}
       # {"id":"com.android.tools.r8.residualsignature","signature":"(Ljava/lang/Object;Lg0/a$e;)V"}
 io.flutter.plugins.pathprovider.Messages$PathProviderApi$$ExternalSyntheticLambda4 -> k0.e:
 # {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
 # {"id":"com.android.tools.r8.synthesized"}
-    io.flutter.plugins.pathprovider.Messages$PathProviderApi io.flutter.plugins.pathprovider.Messages$PathProviderApi$$InternalSyntheticLambda$2$3b37b83339974dd347b68fe5b235e9d3690f45e922a8888479de9ed059ddddbd$4.f$0 -> a
-    1:1:void io.flutter.plugins.pathprovider.Messages$PathProviderApi$$InternalSyntheticLambda$2$3b37b83339974dd347b68fe5b235e9d3690f45e922a8888479de9ed059ddddbd$4.<init>(io.flutter.plugins.pathprovider.Messages$PathProviderApi):0:0 -> <init>
+    io.flutter.plugins.pathprovider.Messages$PathProviderApi io.flutter.plugins.pathprovider.Messages$PathProviderApi$$InternalSyntheticLambda$3$42d3db6c0da2e6a03c0f2c4157d801fd268e129bea0637c3c7ce1639ea758416$4.f$0 -> a
+    1:1:void io.flutter.plugins.pathprovider.Messages$PathProviderApi$$InternalSyntheticLambda$3$42d3db6c0da2e6a03c0f2c4157d801fd268e129bea0637c3c7ce1639ea758416$4.<init>(io.flutter.plugins.pathprovider.Messages$PathProviderApi):0:0 -> <init>
       # {"id":"com.android.tools.r8.synthesized"}
       # {"id":"com.android.tools.r8.residualsignature","signature":"(Lk0/i$a;)V"}
-    1:1:void io.flutter.plugins.pathprovider.Messages$PathProviderApi$$InternalSyntheticLambda$2$3b37b83339974dd347b68fe5b235e9d3690f45e922a8888479de9ed059ddddbd$4.onMessage(java.lang.Object,io.flutter.plugin.common.BasicMessageChannel$Reply):0:0 -> a
+    1:1:void io.flutter.plugins.pathprovider.Messages$PathProviderApi$$InternalSyntheticLambda$3$42d3db6c0da2e6a03c0f2c4157d801fd268e129bea0637c3c7ce1639ea758416$4.onMessage(java.lang.Object,io.flutter.plugin.common.BasicMessageChannel$Reply):0:0 -> a
       # {"id":"com.android.tools.r8.synthesized"}
       # {"id":"com.android.tools.r8.residualsignature","signature":"(Ljava/lang/Object;Lg0/a$e;)V"}
 io.flutter.plugins.pathprovider.Messages$PathProviderApi$$ExternalSyntheticLambda5 -> k0.f:
 # {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
 # {"id":"com.android.tools.r8.synthesized"}
-    io.flutter.plugins.pathprovider.Messages$PathProviderApi io.flutter.plugins.pathprovider.Messages$PathProviderApi$$InternalSyntheticLambda$2$3b37b83339974dd347b68fe5b235e9d3690f45e922a8888479de9ed059ddddbd$5.f$0 -> a
-    1:1:void io.flutter.plugins.pathprovider.Messages$PathProviderApi$$InternalSyntheticLambda$2$3b37b83339974dd347b68fe5b235e9d3690f45e922a8888479de9ed059ddddbd$5.<init>(io.flutter.plugins.pathprovider.Messages$PathProviderApi):0:0 -> <init>
+    io.flutter.plugins.pathprovider.Messages$PathProviderApi io.flutter.plugins.pathprovider.Messages$PathProviderApi$$InternalSyntheticLambda$3$42d3db6c0da2e6a03c0f2c4157d801fd268e129bea0637c3c7ce1639ea758416$5.f$0 -> a
+    1:1:void io.flutter.plugins.pathprovider.Messages$PathProviderApi$$InternalSyntheticLambda$3$42d3db6c0da2e6a03c0f2c4157d801fd268e129bea0637c3c7ce1639ea758416$5.<init>(io.flutter.plugins.pathprovider.Messages$PathProviderApi):0:0 -> <init>
       # {"id":"com.android.tools.r8.synthesized"}
       # {"id":"com.android.tools.r8.residualsignature","signature":"(Lk0/i$a;)V"}
-    1:1:void io.flutter.plugins.pathprovider.Messages$PathProviderApi$$InternalSyntheticLambda$2$3b37b83339974dd347b68fe5b235e9d3690f45e922a8888479de9ed059ddddbd$5.onMessage(java.lang.Object,io.flutter.plugin.common.BasicMessageChannel$Reply):0:0 -> a
+    1:1:void io.flutter.plugins.pathprovider.Messages$PathProviderApi$$InternalSyntheticLambda$3$42d3db6c0da2e6a03c0f2c4157d801fd268e129bea0637c3c7ce1639ea758416$5.onMessage(java.lang.Object,io.flutter.plugin.common.BasicMessageChannel$Reply):0:0 -> a
       # {"id":"com.android.tools.r8.synthesized"}
       # {"id":"com.android.tools.r8.residualsignature","signature":"(Ljava/lang/Object;Lg0/a$e;)V"}
 io.flutter.plugins.pathprovider.Messages$PathProviderApi$$ExternalSyntheticLambda6 -> k0.g:
 # {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
 # {"id":"com.android.tools.r8.synthesized"}
-    io.flutter.plugins.pathprovider.Messages$PathProviderApi io.flutter.plugins.pathprovider.Messages$PathProviderApi$$InternalSyntheticLambda$2$3b37b83339974dd347b68fe5b235e9d3690f45e922a8888479de9ed059ddddbd$6.f$0 -> a
-    1:1:void io.flutter.plugins.pathprovider.Messages$PathProviderApi$$InternalSyntheticLambda$2$3b37b83339974dd347b68fe5b235e9d3690f45e922a8888479de9ed059ddddbd$6.<init>(io.flutter.plugins.pathprovider.Messages$PathProviderApi):0:0 -> <init>
+    io.flutter.plugins.pathprovider.Messages$PathProviderApi io.flutter.plugins.pathprovider.Messages$PathProviderApi$$InternalSyntheticLambda$3$42d3db6c0da2e6a03c0f2c4157d801fd268e129bea0637c3c7ce1639ea758416$6.f$0 -> a
+    1:1:void io.flutter.plugins.pathprovider.Messages$PathProviderApi$$InternalSyntheticLambda$3$42d3db6c0da2e6a03c0f2c4157d801fd268e129bea0637c3c7ce1639ea758416$6.<init>(io.flutter.plugins.pathprovider.Messages$PathProviderApi):0:0 -> <init>
       # {"id":"com.android.tools.r8.synthesized"}
       # {"id":"com.android.tools.r8.residualsignature","signature":"(Lk0/i$a;)V"}
-    1:1:void io.flutter.plugins.pathprovider.Messages$PathProviderApi$$InternalSyntheticLambda$2$3b37b83339974dd347b68fe5b235e9d3690f45e922a8888479de9ed059ddddbd$6.onMessage(java.lang.Object,io.flutter.plugin.common.BasicMessageChannel$Reply):0:0 -> a
+    1:1:void io.flutter.plugins.pathprovider.Messages$PathProviderApi$$InternalSyntheticLambda$3$42d3db6c0da2e6a03c0f2c4157d801fd268e129bea0637c3c7ce1639ea758416$6.onMessage(java.lang.Object,io.flutter.plugin.common.BasicMessageChannel$Reply):0:0 -> a
       # {"id":"com.android.tools.r8.synthesized"}
       # {"id":"com.android.tools.r8.residualsignature","signature":"(Ljava/lang/Object;Lg0/a$e;)V"}
 io.flutter.plugins.pathprovider.Messages$PathProviderApi$-CC -> k0.h:
 # {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
 # {"id":"com.android.tools.r8.synthesized"}
-    1:6:io.flutter.plugin.common.MessageCodec io.flutter.plugins.pathprovider.Messages$PathProviderApi.getCodec():0:0 -> a
-    1:6:io.flutter.plugin.common.MessageCodec getCodec():0 -> a
+    1:3:io.flutter.plugin.common.MessageCodec io.flutter.plugins.pathprovider.Messages$PathProviderApi.getCodec():0:0 -> a
+    1:3:io.flutter.plugin.common.MessageCodec getCodec():0 -> a
       # {"id":"com.android.tools.r8.synthesized"}
       # {"id":"com.android.tools.r8.residualsignature","signature":"()Lg0/h;"}
-    1:23:void io.flutter.plugins.pathprovider.Messages$PathProviderApi.lambda$setup$0(io.flutter.plugins.pathprovider.Messages$PathProviderApi,java.lang.Object,io.flutter.plugin.common.BasicMessageChannel$Reply):0:0 -> b
-    1:23:void lambda$setup$0(io.flutter.plugins.pathprovider.Messages$PathProviderApi,java.lang.Object,io.flutter.plugin.common.BasicMessageChannel$Reply):0 -> b
+    1:23:void io.flutter.plugins.pathprovider.Messages$PathProviderApi.lambda$setUp$0(io.flutter.plugins.pathprovider.Messages$PathProviderApi,java.lang.Object,io.flutter.plugin.common.BasicMessageChannel$Reply):0:0 -> b
+    1:23:void lambda$setUp$0(io.flutter.plugins.pathprovider.Messages$PathProviderApi,java.lang.Object,io.flutter.plugin.common.BasicMessageChannel$Reply):0 -> b
       # {"id":"com.android.tools.r8.synthesized"}
       # {"id":"com.android.tools.r8.residualsignature","signature":"(Lk0/i$a;Ljava/lang/Object;Lg0/a$e;)V"}
-    1:23:void io.flutter.plugins.pathprovider.Messages$PathProviderApi.lambda$setup$1(io.flutter.plugins.pathprovider.Messages$PathProviderApi,java.lang.Object,io.flutter.plugin.common.BasicMessageChannel$Reply):0:0 -> c
-    1:23:void lambda$setup$1(io.flutter.plugins.pathprovider.Messages$PathProviderApi,java.lang.Object,io.flutter.plugin.common.BasicMessageChannel$Reply):0 -> c
+    1:23:void io.flutter.plugins.pathprovider.Messages$PathProviderApi.lambda$setUp$1(io.flutter.plugins.pathprovider.Messages$PathProviderApi,java.lang.Object,io.flutter.plugin.common.BasicMessageChannel$Reply):0:0 -> c
+    1:23:void lambda$setUp$1(io.flutter.plugins.pathprovider.Messages$PathProviderApi,java.lang.Object,io.flutter.plugin.common.BasicMessageChannel$Reply):0 -> c
       # {"id":"com.android.tools.r8.synthesized"}
       # {"id":"com.android.tools.r8.residualsignature","signature":"(Lk0/i$a;Ljava/lang/Object;Lg0/a$e;)V"}
-    1:23:void io.flutter.plugins.pathprovider.Messages$PathProviderApi.lambda$setup$2(io.flutter.plugins.pathprovider.Messages$PathProviderApi,java.lang.Object,io.flutter.plugin.common.BasicMessageChannel$Reply):0:0 -> d
-    1:23:void lambda$setup$2(io.flutter.plugins.pathprovider.Messages$PathProviderApi,java.lang.Object,io.flutter.plugin.common.BasicMessageChannel$Reply):0 -> d
+    1:23:void io.flutter.plugins.pathprovider.Messages$PathProviderApi.lambda$setUp$2(io.flutter.plugins.pathprovider.Messages$PathProviderApi,java.lang.Object,io.flutter.plugin.common.BasicMessageChannel$Reply):0:0 -> d
+    1:23:void lambda$setUp$2(io.flutter.plugins.pathprovider.Messages$PathProviderApi,java.lang.Object,io.flutter.plugin.common.BasicMessageChannel$Reply):0 -> d
       # {"id":"com.android.tools.r8.synthesized"}
       # {"id":"com.android.tools.r8.residualsignature","signature":"(Lk0/i$a;Ljava/lang/Object;Lg0/a$e;)V"}
-    1:23:void io.flutter.plugins.pathprovider.Messages$PathProviderApi.lambda$setup$3(io.flutter.plugins.pathprovider.Messages$PathProviderApi,java.lang.Object,io.flutter.plugin.common.BasicMessageChannel$Reply):0:0 -> e
-    1:23:void lambda$setup$3(io.flutter.plugins.pathprovider.Messages$PathProviderApi,java.lang.Object,io.flutter.plugin.common.BasicMessageChannel$Reply):0 -> e
+    1:23:void io.flutter.plugins.pathprovider.Messages$PathProviderApi.lambda$setUp$3(io.flutter.plugins.pathprovider.Messages$PathProviderApi,java.lang.Object,io.flutter.plugin.common.BasicMessageChannel$Reply):0:0 -> e
+    1:23:void lambda$setUp$3(io.flutter.plugins.pathprovider.Messages$PathProviderApi,java.lang.Object,io.flutter.plugin.common.BasicMessageChannel$Reply):0 -> e
       # {"id":"com.android.tools.r8.synthesized"}
       # {"id":"com.android.tools.r8.residualsignature","signature":"(Lk0/i$a;Ljava/lang/Object;Lg0/a$e;)V"}
-    1:23:void io.flutter.plugins.pathprovider.Messages$PathProviderApi.lambda$setup$4(io.flutter.plugins.pathprovider.Messages$PathProviderApi,java.lang.Object,io.flutter.plugin.common.BasicMessageChannel$Reply):0:0 -> f
-    1:23:void lambda$setup$4(io.flutter.plugins.pathprovider.Messages$PathProviderApi,java.lang.Object,io.flutter.plugin.common.BasicMessageChannel$Reply):0 -> f
+    1:23:void io.flutter.plugins.pathprovider.Messages$PathProviderApi.lambda$setUp$4(io.flutter.plugins.pathprovider.Messages$PathProviderApi,java.lang.Object,io.flutter.plugin.common.BasicMessageChannel$Reply):0:0 -> f
+    1:23:void lambda$setUp$4(io.flutter.plugins.pathprovider.Messages$PathProviderApi,java.lang.Object,io.flutter.plugin.common.BasicMessageChannel$Reply):0 -> f
       # {"id":"com.android.tools.r8.synthesized"}
       # {"id":"com.android.tools.r8.residualsignature","signature":"(Lk0/i$a;Ljava/lang/Object;Lg0/a$e;)V"}
-    1:23:void io.flutter.plugins.pathprovider.Messages$PathProviderApi.lambda$setup$5(io.flutter.plugins.pathprovider.Messages$PathProviderApi,java.lang.Object,io.flutter.plugin.common.BasicMessageChannel$Reply):0:0 -> g
-    1:23:void lambda$setup$5(io.flutter.plugins.pathprovider.Messages$PathProviderApi,java.lang.Object,io.flutter.plugin.common.BasicMessageChannel$Reply):0 -> g
+    1:23:void io.flutter.plugins.pathprovider.Messages$PathProviderApi.lambda$setUp$5(io.flutter.plugins.pathprovider.Messages$PathProviderApi,java.lang.Object,io.flutter.plugin.common.BasicMessageChannel$Reply):0:0 -> g
+    1:23:void lambda$setUp$5(io.flutter.plugins.pathprovider.Messages$PathProviderApi,java.lang.Object,io.flutter.plugin.common.BasicMessageChannel$Reply):0 -> g
       # {"id":"com.android.tools.r8.synthesized"}
       # {"id":"com.android.tools.r8.residualsignature","signature":"(Lk0/i$a;Ljava/lang/Object;Lg0/a$e;)V"}
-    1:49:void io.flutter.plugins.pathprovider.Messages$PathProviderApi.lambda$setup$6(io.flutter.plugins.pathprovider.Messages$PathProviderApi,java.lang.Object,io.flutter.plugin.common.BasicMessageChannel$Reply):0:0 -> h
-    1:49:void lambda$setup$6(io.flutter.plugins.pathprovider.Messages$PathProviderApi,java.lang.Object,io.flutter.plugin.common.BasicMessageChannel$Reply):0 -> h
+    1:31:void io.flutter.plugins.pathprovider.Messages$PathProviderApi.lambda$setUp$6(io.flutter.plugins.pathprovider.Messages$PathProviderApi,java.lang.Object,io.flutter.plugin.common.BasicMessageChannel$Reply):0:0 -> h
+    1:31:void lambda$setUp$6(io.flutter.plugins.pathprovider.Messages$PathProviderApi,java.lang.Object,io.flutter.plugin.common.BasicMessageChannel$Reply):0 -> h
       # {"id":"com.android.tools.r8.synthesized"}
       # {"id":"com.android.tools.r8.residualsignature","signature":"(Lk0/i$a;Ljava/lang/Object;Lg0/a$e;)V"}
-    1:1:void io.flutter.plugins.pathprovider.Messages$PathProviderApi.setup(io.flutter.plugin.common.BinaryMessenger,io.flutter.plugins.pathprovider.Messages$PathProviderApi):0:0 -> i
-    1:1:void setup(io.flutter.plugin.common.BinaryMessenger,io.flutter.plugins.pathprovider.Messages$PathProviderApi):0 -> i
+    1:1:void io.flutter.plugins.pathprovider.Messages$PathProviderApi.setUp(io.flutter.plugin.common.BinaryMessenger,java.lang.String,io.flutter.plugins.pathprovider.Messages$PathProviderApi):0:0 -> i
+    1:1:void setUp(io.flutter.plugin.common.BinaryMessenger,java.lang.String,io.flutter.plugins.pathprovider.Messages$PathProviderApi):0 -> i
+      # {"id":"com.android.tools.r8.synthesized"}
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lg0/c;Ljava/lang/String;Lk0/i$a;)V"}
+    3:6:void io.flutter.plugins.pathprovider.Messages$PathProviderApi.setUp(io.flutter.plugin.common.BinaryMessenger,io.flutter.plugins.pathprovider.Messages$PathProviderApi):0:0 -> j
+    3:6:void setUp(io.flutter.plugin.common.BinaryMessenger,io.flutter.plugins.pathprovider.Messages$PathProviderApi):0 -> j
       # {"id":"com.android.tools.r8.synthesized"}
       # {"id":"com.android.tools.r8.residualsignature","signature":"(Lg0/c;Lk0/i$a;)V"}
-io.flutter.plugins.pathprovider.Messages$StorageDirectory -> k0.i$b:
+io.flutter.plugins.pathprovider.Messages$PigeonCodec -> k0.i$b:
+    io.flutter.plugins.pathprovider.Messages$PigeonCodec INSTANCE -> d
+    1:1:void <clinit>():0:0 -> <clinit>
+    void <init>() -> <init>
+    1:1:java.lang.Object readValueOfType(byte,java.nio.ByteBuffer):0:0 -> g
+    1:1:void writeValue(java.io.ByteArrayOutputStream,java.lang.Object):0:0 -> p
+io.flutter.plugins.pathprovider.Messages$StorageDirectory -> k0.i$c:
     int index -> e
     io.flutter.plugins.pathprovider.Messages$StorageDirectory ROOT -> f
     io.flutter.plugins.pathprovider.Messages$StorageDirectory MUSIC -> g
@@ -6360,11 +6370,11 @@ io.flutter.plugins.pathprovider.Messages$StorageDirectory -> k0.i$b:
     1:1:void <clinit>():0:0 -> <clinit>
     1:1:void <init>(java.lang.String,int,int):0:0 -> <init>
     1:1:io.flutter.plugins.pathprovider.Messages$StorageDirectory[] $values():0:0 -> a
-      # {"id":"com.android.tools.r8.residualsignature","signature":"()[Lk0/i$b;"}
+      # {"id":"com.android.tools.r8.residualsignature","signature":"()[Lk0/i$c;"}
     1:1:io.flutter.plugins.pathprovider.Messages$StorageDirectory valueOf(java.lang.String):0:0 -> valueOf
-      # {"id":"com.android.tools.r8.residualsignature","signature":"(Ljava/lang/String;)Lk0/i$b;"}
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Ljava/lang/String;)Lk0/i$c;"}
     1:1:io.flutter.plugins.pathprovider.Messages$StorageDirectory[] values():0:0 -> values
-      # {"id":"com.android.tools.r8.residualsignature","signature":"()[Lk0/i$b;"}
+      # {"id":"com.android.tools.r8.residualsignature","signature":"()[Lk0/i$c;"}
 io.flutter.plugins.pathprovider.PathProviderPlugin -> k0.j:
     android.content.Context context -> a
     void <init>() -> <init>
@@ -6376,7 +6386,7 @@ io.flutter.plugins.pathprovider.PathProviderPlugin -> k0.j:
       # {"id":"com.android.tools.r8.residualsignature","signature":"(Lc0/a$b;)V"}
     1:1:java.lang.String getApplicationSupportPath():0:0 -> f
     1:1:java.util.List getExternalStoragePaths(io.flutter.plugins.pathprovider.Messages$StorageDirectory):0:0 -> g
-      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lk0/i$b;)Ljava/util/List;"}
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lk0/i$c;)Ljava/util/List;"}
     1:1:java.util.List getExternalCachePaths():0:0 -> h
     1:1:void onAttachedToEngine(io.flutter.embedding.engine.plugins.FlutterPlugin$FlutterPluginBinding):0:0 -> i
       # {"id":"com.android.tools.r8.residualsignature","signature":"(Lc0/a$b;)V"}
@@ -6384,12 +6394,12 @@ io.flutter.plugins.pathprovider.PathProviderPlugin -> k0.j:
     1:1:java.lang.String getPathProviderApplicationDocumentsDirectory():0:0 -> k
     1:1:java.util.List getPathProviderExternalCacheDirectories():0:0 -> l
     1:1:java.util.List getPathProviderExternalStorageDirectories(io.flutter.plugins.pathprovider.Messages$StorageDirectory):0:0 -> m
-      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lk0/i$b;)Ljava/util/List;"}
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lk0/i$c;)Ljava/util/List;"}
     1:1:java.lang.String getPathProviderStorageDirectory():0:0 -> n
     1:1:java.lang.String getPathProviderTemporaryDirectory():0:0 -> o
     1:1:java.lang.String getStorageDirectoryString(io.flutter.plugins.pathprovider.Messages$StorageDirectory):0:0 -> p
-      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lk0/i$b;)Ljava/lang/String;"}
-    1:1:void setup(io.flutter.plugin.common.BinaryMessenger,android.content.Context):0:0 -> q
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lk0/i$c;)Ljava/lang/String;"}
+    1:1:void setUp(io.flutter.plugin.common.BinaryMessenger,android.content.Context):0:0 -> q
       # {"id":"com.android.tools.r8.residualsignature","signature":"(Lg0/c;Landroid/content/Context;)V"}
 io.flutter.plugins.pathprovider.PathProviderPlugin$1 -> k0.j$a:
     int[] $SwitchMap$io$flutter$plugins$pathprovider$Messages$StorageDirectory -> a
@@ -6404,11 +6414,19 @@ io.flutter.plugins.urllauncher.Messages$BrowserOptions -> l0.a$a:
     1:1:java.lang.Boolean getShowTitle():0:0 -> b
     1:1:void setShowTitle(java.lang.Boolean):0:0 -> c
     1:1:java.util.ArrayList toList():0:0 -> d
+    1:1:boolean equals(java.lang.Object):0:0 -> equals
+    1:1:int hashCode():0:0 -> hashCode
 io.flutter.plugins.urllauncher.Messages$FlutterError -> l0.a$b:
     java.lang.String code -> e
     java.lang.Object details -> f
     1:1:void <init>(java.lang.String,java.lang.String,java.lang.Object):0:0 -> <init>
-io.flutter.plugins.urllauncher.Messages$UrlLauncherApi -> l0.a$c:
+io.flutter.plugins.urllauncher.Messages$PigeonCodec -> l0.a$c:
+    io.flutter.plugins.urllauncher.Messages$PigeonCodec INSTANCE -> d
+    1:1:void <clinit>():0:0 -> <clinit>
+    void <init>() -> <init>
+    1:1:java.lang.Object readValueOfType(byte,java.nio.ByteBuffer):0:0 -> g
+    1:1:void writeValue(java.io.ByteArrayOutputStream,java.lang.Object):0:0 -> p
+io.flutter.plugins.urllauncher.Messages$UrlLauncherApi -> l0.a$d:
     java.lang.Boolean supportsCustomTabs() -> a
     void closeWebView() -> b
     java.lang.Boolean openUrlInApp(java.lang.String,java.lang.Boolean,io.flutter.plugins.urllauncher.Messages$WebViewOptions,io.flutter.plugins.urllauncher.Messages$BrowserOptions) -> c
@@ -6418,51 +6436,51 @@ io.flutter.plugins.urllauncher.Messages$UrlLauncherApi -> l0.a$c:
 io.flutter.plugins.urllauncher.Messages$UrlLauncherApi$$ExternalSyntheticLambda0 -> l0.b:
 # {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
 # {"id":"com.android.tools.r8.synthesized"}
-    io.flutter.plugins.urllauncher.Messages$UrlLauncherApi io.flutter.plugins.urllauncher.Messages$UrlLauncherApi$$InternalSyntheticLambda$2$c78011f9e206e7684d58fbc1a0c354e4de22b8ac29c28dcbcfb418db0344d3f7$0.f$0 -> a
-    1:1:void io.flutter.plugins.urllauncher.Messages$UrlLauncherApi$$InternalSyntheticLambda$2$c78011f9e206e7684d58fbc1a0c354e4de22b8ac29c28dcbcfb418db0344d3f7$0.<init>(io.flutter.plugins.urllauncher.Messages$UrlLauncherApi):0:0 -> <init>
+    io.flutter.plugins.urllauncher.Messages$UrlLauncherApi io.flutter.plugins.urllauncher.Messages$UrlLauncherApi$$InternalSyntheticLambda$3$c0b5a27905d046280cf32d8abe43b1c9c0ff7400f5104a0dd96eb1db9283ca2f$0.f$0 -> a
+    1:1:void io.flutter.plugins.urllauncher.Messages$UrlLauncherApi$$InternalSyntheticLambda$3$c0b5a27905d046280cf32d8abe43b1c9c0ff7400f5104a0dd96eb1db9283ca2f$0.<init>(io.flutter.plugins.urllauncher.Messages$UrlLauncherApi):0:0 -> <init>
       # {"id":"com.android.tools.r8.synthesized"}
-      # {"id":"com.android.tools.r8.residualsignature","signature":"(Ll0/a$c;)V"}
-    1:1:void io.flutter.plugins.urllauncher.Messages$UrlLauncherApi$$InternalSyntheticLambda$2$c78011f9e206e7684d58fbc1a0c354e4de22b8ac29c28dcbcfb418db0344d3f7$0.onMessage(java.lang.Object,io.flutter.plugin.common.BasicMessageChannel$Reply):0:0 -> a
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Ll0/a$d;)V"}
+    1:1:void io.flutter.plugins.urllauncher.Messages$UrlLauncherApi$$InternalSyntheticLambda$3$c0b5a27905d046280cf32d8abe43b1c9c0ff7400f5104a0dd96eb1db9283ca2f$0.onMessage(java.lang.Object,io.flutter.plugin.common.BasicMessageChannel$Reply):0:0 -> a
       # {"id":"com.android.tools.r8.synthesized"}
       # {"id":"com.android.tools.r8.residualsignature","signature":"(Ljava/lang/Object;Lg0/a$e;)V"}
 io.flutter.plugins.urllauncher.Messages$UrlLauncherApi$$ExternalSyntheticLambda1 -> l0.c:
 # {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
 # {"id":"com.android.tools.r8.synthesized"}
-    io.flutter.plugins.urllauncher.Messages$UrlLauncherApi io.flutter.plugins.urllauncher.Messages$UrlLauncherApi$$InternalSyntheticLambda$2$c78011f9e206e7684d58fbc1a0c354e4de22b8ac29c28dcbcfb418db0344d3f7$1.f$0 -> a
-    1:1:void io.flutter.plugins.urllauncher.Messages$UrlLauncherApi$$InternalSyntheticLambda$2$c78011f9e206e7684d58fbc1a0c354e4de22b8ac29c28dcbcfb418db0344d3f7$1.<init>(io.flutter.plugins.urllauncher.Messages$UrlLauncherApi):0:0 -> <init>
+    io.flutter.plugins.urllauncher.Messages$UrlLauncherApi io.flutter.plugins.urllauncher.Messages$UrlLauncherApi$$InternalSyntheticLambda$3$c0b5a27905d046280cf32d8abe43b1c9c0ff7400f5104a0dd96eb1db9283ca2f$1.f$0 -> a
+    1:1:void io.flutter.plugins.urllauncher.Messages$UrlLauncherApi$$InternalSyntheticLambda$3$c0b5a27905d046280cf32d8abe43b1c9c0ff7400f5104a0dd96eb1db9283ca2f$1.<init>(io.flutter.plugins.urllauncher.Messages$UrlLauncherApi):0:0 -> <init>
       # {"id":"com.android.tools.r8.synthesized"}
-      # {"id":"com.android.tools.r8.residualsignature","signature":"(Ll0/a$c;)V"}
-    1:1:void io.flutter.plugins.urllauncher.Messages$UrlLauncherApi$$InternalSyntheticLambda$2$c78011f9e206e7684d58fbc1a0c354e4de22b8ac29c28dcbcfb418db0344d3f7$1.onMessage(java.lang.Object,io.flutter.plugin.common.BasicMessageChannel$Reply):0:0 -> a
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Ll0/a$d;)V"}
+    1:1:void io.flutter.plugins.urllauncher.Messages$UrlLauncherApi$$InternalSyntheticLambda$3$c0b5a27905d046280cf32d8abe43b1c9c0ff7400f5104a0dd96eb1db9283ca2f$1.onMessage(java.lang.Object,io.flutter.plugin.common.BasicMessageChannel$Reply):0:0 -> a
       # {"id":"com.android.tools.r8.synthesized"}
       # {"id":"com.android.tools.r8.residualsignature","signature":"(Ljava/lang/Object;Lg0/a$e;)V"}
 io.flutter.plugins.urllauncher.Messages$UrlLauncherApi$$ExternalSyntheticLambda2 -> l0.d:
 # {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
 # {"id":"com.android.tools.r8.synthesized"}
-    io.flutter.plugins.urllauncher.Messages$UrlLauncherApi io.flutter.plugins.urllauncher.Messages$UrlLauncherApi$$InternalSyntheticLambda$2$c78011f9e206e7684d58fbc1a0c354e4de22b8ac29c28dcbcfb418db0344d3f7$2.f$0 -> a
-    1:1:void io.flutter.plugins.urllauncher.Messages$UrlLauncherApi$$InternalSyntheticLambda$2$c78011f9e206e7684d58fbc1a0c354e4de22b8ac29c28dcbcfb418db0344d3f7$2.<init>(io.flutter.plugins.urllauncher.Messages$UrlLauncherApi):0:0 -> <init>
+    io.flutter.plugins.urllauncher.Messages$UrlLauncherApi io.flutter.plugins.urllauncher.Messages$UrlLauncherApi$$InternalSyntheticLambda$3$c0b5a27905d046280cf32d8abe43b1c9c0ff7400f5104a0dd96eb1db9283ca2f$2.f$0 -> a
+    1:1:void io.flutter.plugins.urllauncher.Messages$UrlLauncherApi$$InternalSyntheticLambda$3$c0b5a27905d046280cf32d8abe43b1c9c0ff7400f5104a0dd96eb1db9283ca2f$2.<init>(io.flutter.plugins.urllauncher.Messages$UrlLauncherApi):0:0 -> <init>
       # {"id":"com.android.tools.r8.synthesized"}
-      # {"id":"com.android.tools.r8.residualsignature","signature":"(Ll0/a$c;)V"}
-    1:1:void io.flutter.plugins.urllauncher.Messages$UrlLauncherApi$$InternalSyntheticLambda$2$c78011f9e206e7684d58fbc1a0c354e4de22b8ac29c28dcbcfb418db0344d3f7$2.onMessage(java.lang.Object,io.flutter.plugin.common.BasicMessageChannel$Reply):0:0 -> a
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Ll0/a$d;)V"}
+    1:1:void io.flutter.plugins.urllauncher.Messages$UrlLauncherApi$$InternalSyntheticLambda$3$c0b5a27905d046280cf32d8abe43b1c9c0ff7400f5104a0dd96eb1db9283ca2f$2.onMessage(java.lang.Object,io.flutter.plugin.common.BasicMessageChannel$Reply):0:0 -> a
       # {"id":"com.android.tools.r8.synthesized"}
       # {"id":"com.android.tools.r8.residualsignature","signature":"(Ljava/lang/Object;Lg0/a$e;)V"}
 io.flutter.plugins.urllauncher.Messages$UrlLauncherApi$$ExternalSyntheticLambda3 -> l0.e:
 # {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
 # {"id":"com.android.tools.r8.synthesized"}
-    io.flutter.plugins.urllauncher.Messages$UrlLauncherApi io.flutter.plugins.urllauncher.Messages$UrlLauncherApi$$InternalSyntheticLambda$2$c78011f9e206e7684d58fbc1a0c354e4de22b8ac29c28dcbcfb418db0344d3f7$3.f$0 -> a
-    1:1:void io.flutter.plugins.urllauncher.Messages$UrlLauncherApi$$InternalSyntheticLambda$2$c78011f9e206e7684d58fbc1a0c354e4de22b8ac29c28dcbcfb418db0344d3f7$3.<init>(io.flutter.plugins.urllauncher.Messages$UrlLauncherApi):0:0 -> <init>
+    io.flutter.plugins.urllauncher.Messages$UrlLauncherApi io.flutter.plugins.urllauncher.Messages$UrlLauncherApi$$InternalSyntheticLambda$3$c0b5a27905d046280cf32d8abe43b1c9c0ff7400f5104a0dd96eb1db9283ca2f$3.f$0 -> a
+    1:1:void io.flutter.plugins.urllauncher.Messages$UrlLauncherApi$$InternalSyntheticLambda$3$c0b5a27905d046280cf32d8abe43b1c9c0ff7400f5104a0dd96eb1db9283ca2f$3.<init>(io.flutter.plugins.urllauncher.Messages$UrlLauncherApi):0:0 -> <init>
       # {"id":"com.android.tools.r8.synthesized"}
-      # {"id":"com.android.tools.r8.residualsignature","signature":"(Ll0/a$c;)V"}
-    1:1:void io.flutter.plugins.urllauncher.Messages$UrlLauncherApi$$InternalSyntheticLambda$2$c78011f9e206e7684d58fbc1a0c354e4de22b8ac29c28dcbcfb418db0344d3f7$3.onMessage(java.lang.Object,io.flutter.plugin.common.BasicMessageChannel$Reply):0:0 -> a
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Ll0/a$d;)V"}
+    1:1:void io.flutter.plugins.urllauncher.Messages$UrlLauncherApi$$InternalSyntheticLambda$3$c0b5a27905d046280cf32d8abe43b1c9c0ff7400f5104a0dd96eb1db9283ca2f$3.onMessage(java.lang.Object,io.flutter.plugin.common.BasicMessageChannel$Reply):0:0 -> a
       # {"id":"com.android.tools.r8.synthesized"}
       # {"id":"com.android.tools.r8.residualsignature","signature":"(Ljava/lang/Object;Lg0/a$e;)V"}
 io.flutter.plugins.urllauncher.Messages$UrlLauncherApi$$ExternalSyntheticLambda4 -> l0.f:
 # {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
 # {"id":"com.android.tools.r8.synthesized"}
-    io.flutter.plugins.urllauncher.Messages$UrlLauncherApi io.flutter.plugins.urllauncher.Messages$UrlLauncherApi$$InternalSyntheticLambda$2$c78011f9e206e7684d58fbc1a0c354e4de22b8ac29c28dcbcfb418db0344d3f7$4.f$0 -> a
-    1:1:void io.flutter.plugins.urllauncher.Messages$UrlLauncherApi$$InternalSyntheticLambda$2$c78011f9e206e7684d58fbc1a0c354e4de22b8ac29c28dcbcfb418db0344d3f7$4.<init>(io.flutter.plugins.urllauncher.Messages$UrlLauncherApi):0:0 -> <init>
+    io.flutter.plugins.urllauncher.Messages$UrlLauncherApi io.flutter.plugins.urllauncher.Messages$UrlLauncherApi$$InternalSyntheticLambda$3$c0b5a27905d046280cf32d8abe43b1c9c0ff7400f5104a0dd96eb1db9283ca2f$4.f$0 -> a
+    1:1:void io.flutter.plugins.urllauncher.Messages$UrlLauncherApi$$InternalSyntheticLambda$3$c0b5a27905d046280cf32d8abe43b1c9c0ff7400f5104a0dd96eb1db9283ca2f$4.<init>(io.flutter.plugins.urllauncher.Messages$UrlLauncherApi):0:0 -> <init>
       # {"id":"com.android.tools.r8.synthesized"}
-      # {"id":"com.android.tools.r8.residualsignature","signature":"(Ll0/a$c;)V"}
-    1:1:void io.flutter.plugins.urllauncher.Messages$UrlLauncherApi$$InternalSyntheticLambda$2$c78011f9e206e7684d58fbc1a0c354e4de22b8ac29c28dcbcfb418db0344d3f7$4.onMessage(java.lang.Object,io.flutter.plugin.common.BasicMessageChannel$Reply):0:0 -> a
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Ll0/a$d;)V"}
+    1:1:void io.flutter.plugins.urllauncher.Messages$UrlLauncherApi$$InternalSyntheticLambda$3$c0b5a27905d046280cf32d8abe43b1c9c0ff7400f5104a0dd96eb1db9283ca2f$4.onMessage(java.lang.Object,io.flutter.plugin.common.BasicMessageChannel$Reply):0:0 -> a
       # {"id":"com.android.tools.r8.synthesized"}
       # {"id":"com.android.tools.r8.residualsignature","signature":"(Ljava/lang/Object;Lg0/a$e;)V"}
 io.flutter.plugins.urllauncher.Messages$UrlLauncherApi$-CC -> l0.g:
@@ -6472,36 +6490,34 @@ io.flutter.plugins.urllauncher.Messages$UrlLauncherApi$-CC -> l0.g:
     1:3:io.flutter.plugin.common.MessageCodec getCodec():0 -> a
       # {"id":"com.android.tools.r8.synthesized"}
       # {"id":"com.android.tools.r8.residualsignature","signature":"()Lg0/h;"}
-    1:31:void io.flutter.plugins.urllauncher.Messages$UrlLauncherApi.lambda$setup$0(io.flutter.plugins.urllauncher.Messages$UrlLauncherApi,java.lang.Object,io.flutter.plugin.common.BasicMessageChannel$Reply):0:0 -> b
-    1:31:void lambda$setup$0(io.flutter.plugins.urllauncher.Messages$UrlLauncherApi,java.lang.Object,io.flutter.plugin.common.BasicMessageChannel$Reply):0 -> b
+    1:31:void io.flutter.plugins.urllauncher.Messages$UrlLauncherApi.lambda$setUp$0(io.flutter.plugins.urllauncher.Messages$UrlLauncherApi,java.lang.Object,io.flutter.plugin.common.BasicMessageChannel$Reply):0:0 -> b
+    1:31:void lambda$setUp$0(io.flutter.plugins.urllauncher.Messages$UrlLauncherApi,java.lang.Object,io.flutter.plugin.common.BasicMessageChannel$Reply):0 -> b
       # {"id":"com.android.tools.r8.synthesized"}
-      # {"id":"com.android.tools.r8.residualsignature","signature":"(Ll0/a$c;Ljava/lang/Object;Lg0/a$e;)V"}
-    1:38:void io.flutter.plugins.urllauncher.Messages$UrlLauncherApi.lambda$setup$1(io.flutter.plugins.urllauncher.Messages$UrlLauncherApi,java.lang.Object,io.flutter.plugin.common.BasicMessageChannel$Reply):0:0 -> c
-    1:38:void lambda$setup$1(io.flutter.plugins.urllauncher.Messages$UrlLauncherApi,java.lang.Object,io.flutter.plugin.common.BasicMessageChannel$Reply):0 -> c
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Ll0/a$d;Ljava/lang/Object;Lg0/a$e;)V"}
+    1:38:void io.flutter.plugins.urllauncher.Messages$UrlLauncherApi.lambda$setUp$1(io.flutter.plugins.urllauncher.Messages$UrlLauncherApi,java.lang.Object,io.flutter.plugin.common.BasicMessageChannel$Reply):0:0 -> c
+    1:38:void lambda$setUp$1(io.flutter.plugins.urllauncher.Messages$UrlLauncherApi,java.lang.Object,io.flutter.plugin.common.BasicMessageChannel$Reply):0 -> c
       # {"id":"com.android.tools.r8.synthesized"}
-      # {"id":"com.android.tools.r8.residualsignature","signature":"(Ll0/a$c;Ljava/lang/Object;Lg0/a$e;)V"}
-    1:52:void io.flutter.plugins.urllauncher.Messages$UrlLauncherApi.lambda$setup$2(io.flutter.plugins.urllauncher.Messages$UrlLauncherApi,java.lang.Object,io.flutter.plugin.common.BasicMessageChannel$Reply):0:0 -> d
-    1:52:void lambda$setup$2(io.flutter.plugins.urllauncher.Messages$UrlLauncherApi,java.lang.Object,io.flutter.plugin.common.BasicMessageChannel$Reply):0 -> d
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Ll0/a$d;Ljava/lang/Object;Lg0/a$e;)V"}
+    1:52:void io.flutter.plugins.urllauncher.Messages$UrlLauncherApi.lambda$setUp$2(io.flutter.plugins.urllauncher.Messages$UrlLauncherApi,java.lang.Object,io.flutter.plugin.common.BasicMessageChannel$Reply):0:0 -> d
+    1:52:void lambda$setUp$2(io.flutter.plugins.urllauncher.Messages$UrlLauncherApi,java.lang.Object,io.flutter.plugin.common.BasicMessageChannel$Reply):0 -> d
       # {"id":"com.android.tools.r8.synthesized"}
-      # {"id":"com.android.tools.r8.residualsignature","signature":"(Ll0/a$c;Ljava/lang/Object;Lg0/a$e;)V"}
-    1:23:void io.flutter.plugins.urllauncher.Messages$UrlLauncherApi.lambda$setup$3(io.flutter.plugins.urllauncher.Messages$UrlLauncherApi,java.lang.Object,io.flutter.plugin.common.BasicMessageChannel$Reply):0:0 -> e
-    1:23:void lambda$setup$3(io.flutter.plugins.urllauncher.Messages$UrlLauncherApi,java.lang.Object,io.flutter.plugin.common.BasicMessageChannel$Reply):0 -> e
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Ll0/a$d;Ljava/lang/Object;Lg0/a$e;)V"}
+    1:23:void io.flutter.plugins.urllauncher.Messages$UrlLauncherApi.lambda$setUp$3(io.flutter.plugins.urllauncher.Messages$UrlLauncherApi,java.lang.Object,io.flutter.plugin.common.BasicMessageChannel$Reply):0:0 -> e
+    1:23:void lambda$setUp$3(io.flutter.plugins.urllauncher.Messages$UrlLauncherApi,java.lang.Object,io.flutter.plugin.common.BasicMessageChannel$Reply):0 -> e
       # {"id":"com.android.tools.r8.synthesized"}
-      # {"id":"com.android.tools.r8.residualsignature","signature":"(Ll0/a$c;Ljava/lang/Object;Lg0/a$e;)V"}
-    1:23:void io.flutter.plugins.urllauncher.Messages$UrlLauncherApi.lambda$setup$4(io.flutter.plugins.urllauncher.Messages$UrlLauncherApi,java.lang.Object,io.flutter.plugin.common.BasicMessageChannel$Reply):0:0 -> f
-    1:23:void lambda$setup$4(io.flutter.plugins.urllauncher.Messages$UrlLauncherApi,java.lang.Object,io.flutter.plugin.common.BasicMessageChannel$Reply):0 -> f
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Ll0/a$d;Ljava/lang/Object;Lg0/a$e;)V"}
+    1:23:void io.flutter.plugins.urllauncher.Messages$UrlLauncherApi.lambda$setUp$4(io.flutter.plugins.urllauncher.Messages$UrlLauncherApi,java.lang.Object,io.flutter.plugin.common.BasicMessageChannel$Reply):0:0 -> f
+    1:23:void lambda$setUp$4(io.flutter.plugins.urllauncher.Messages$UrlLauncherApi,java.lang.Object,io.flutter.plugin.common.BasicMessageChannel$Reply):0 -> f
       # {"id":"com.android.tools.r8.synthesized"}
-      # {"id":"com.android.tools.r8.residualsignature","signature":"(Ll0/a$c;Ljava/lang/Object;Lg0/a$e;)V"}
-    1:1:void io.flutter.plugins.urllauncher.Messages$UrlLauncherApi.setup(io.flutter.plugin.common.BinaryMessenger,io.flutter.plugins.urllauncher.Messages$UrlLauncherApi):0:0 -> g
-    1:1:void setup(io.flutter.plugin.common.BinaryMessenger,io.flutter.plugins.urllauncher.Messages$UrlLauncherApi):0 -> g
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Ll0/a$d;Ljava/lang/Object;Lg0/a$e;)V"}
+    1:1:void io.flutter.plugins.urllauncher.Messages$UrlLauncherApi.setUp(io.flutter.plugin.common.BinaryMessenger,java.lang.String,io.flutter.plugins.urllauncher.Messages$UrlLauncherApi):0:0 -> g
+    1:1:void setUp(io.flutter.plugin.common.BinaryMessenger,java.lang.String,io.flutter.plugins.urllauncher.Messages$UrlLauncherApi):0 -> g
       # {"id":"com.android.tools.r8.synthesized"}
-      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lg0/c;Ll0/a$c;)V"}
-io.flutter.plugins.urllauncher.Messages$UrlLauncherApiCodec -> l0.a$d:
-    io.flutter.plugins.urllauncher.Messages$UrlLauncherApiCodec INSTANCE -> d
-    1:1:void <clinit>():0:0 -> <clinit>
-    void <init>() -> <init>
-    1:1:java.lang.Object readValueOfType(byte,java.nio.ByteBuffer):0:0 -> g
-    1:1:void writeValue(java.io.ByteArrayOutputStream,java.lang.Object):0:0 -> p
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lg0/c;Ljava/lang/String;Ll0/a$d;)V"}
+    3:6:void io.flutter.plugins.urllauncher.Messages$UrlLauncherApi.setUp(io.flutter.plugin.common.BinaryMessenger,io.flutter.plugins.urllauncher.Messages$UrlLauncherApi):0:0 -> h
+    3:6:void setUp(io.flutter.plugin.common.BinaryMessenger,io.flutter.plugins.urllauncher.Messages$UrlLauncherApi):0 -> h
+      # {"id":"com.android.tools.r8.synthesized"}
+      # {"id":"com.android.tools.r8.residualsignature","signature":"(Lg0/c;Ll0/a$d;)V"}
 io.flutter.plugins.urllauncher.Messages$WebViewOptions -> l0.a$e:
     java.lang.Boolean enableJavaScript -> a
     java.lang.Boolean enableDomStorage -> b
@@ -6513,9 +6529,11 @@ io.flutter.plugins.urllauncher.Messages$WebViewOptions -> l0.a$e:
     1:1:java.lang.Boolean getEnableJavaScript():0:0 -> c
     1:1:java.util.Map getHeaders():0:0 -> d
     1:1:void setEnableDomStorage(java.lang.Boolean):0:0 -> e
+    1:1:boolean equals(java.lang.Object):0:0 -> equals
     1:1:void setEnableJavaScript(java.lang.Boolean):0:0 -> f
     1:1:void setHeaders(java.util.Map):0:0 -> g
     1:1:java.util.ArrayList toList():0:0 -> h
+    1:1:int hashCode():0:0 -> hashCode
 io.flutter.plugins.urllauncher.UrlLauncher -> l0.i:
     android.content.Context applicationContext -> a
     io.flutter.plugins.urllauncher.UrlLauncher$IntentResolver intentResolver -> b

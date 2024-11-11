@@ -4,7 +4,7 @@
             "outputFile": "com.example.holamundo.app-mergeReleaseResources-25:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Alumnado2DAM\\Desktop\\Flutter1-SFR\\Ej1\\android\\app\\src\\main\\res\\values-night\\styles.xml",
+                    "source": "C:\\Users\\Alumnado2DAM\\Desktop\\RepoFlutter\\Flutter1-SFR\\Ej1\\android\\app\\src\\main\\res\\values-night\\styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",

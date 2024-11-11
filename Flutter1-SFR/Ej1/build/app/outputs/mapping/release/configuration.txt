@@ -1,4 +1,4 @@
-# The proguard configuration file for the following section is C:\Users\Alumnado2DAM\Desktop\Flutter1-SFR\Ej1\build\app\intermediates\default_proguard_files\global\proguard-android.txt-8.1.0
+# The proguard configuration file for the following section is C:\Users\Alumnado2DAM\Desktop\RepoFlutter\Flutter1-SFR\Ej1\build\app\intermediates\default_proguard_files\global\proguard-android.txt-8.1.0
 # This is a configuration file for ProGuard.
 # http://proguard.sourceforge.net/index.html#manual/usage.html
 #
@@ -116,7 +116,7 @@
 # These classes are duplicated between android.jar and core-lambda-stubs.jar.
 -dontnote java.lang.invoke.**
 
-# End of content from C:\Users\Alumnado2DAM\Desktop\Flutter1-SFR\Ej1\build\app\intermediates\default_proguard_files\global\proguard-android.txt-8.1.0
+# End of content from C:\Users\Alumnado2DAM\Desktop\RepoFlutter\Flutter1-SFR\Ej1\build\app\intermediates\default_proguard_files\global\proguard-android.txt-8.1.0
 # The proguard configuration file for the following section is C:\Users\Alumnado2DAM\Desktop\fluter_sdk\flutter_windows_3.24.3-stable\flutter\packages\flutter_tools\gradle\flutter_proguard_rules.pro
 # Build the ephemeral app in a module project.
 # Prevents: Warning: library class <plugin-package> depends on program class io.flutter.plugin.**
@@ -127,7 +127,7 @@
 -dontwarn android.**
 
 # End of content from C:\Users\Alumnado2DAM\Desktop\fluter_sdk\flutter_windows_3.24.3-stable\flutter\packages\flutter_tools\gradle\flutter_proguard_rules.pro
-# The proguard configuration file for the following section is C:\Users\Alumnado2DAM\Desktop\Flutter1-SFR\Ej1\build\app\intermediates\aapt_proguard_file\release\aapt_rules.txt
+# The proguard configuration file for the following section is C:\Users\Alumnado2DAM\Desktop\RepoFlutter\Flutter1-SFR\Ej1\build\app\intermediates\aapt_proguard_file\release\aapt_rules.txt
 -keep class android.app.Application { <init>(); }
 -keep class androidx.core.app.CoreComponentFactory { <init>(); }
 -keep class androidx.profileinstaller.ProfileInstallReceiver { <init>(); }
@@ -137,7 +137,7 @@
 -keep class androidx.browser.browseractions.BrowserActionsFallbackMenuView { <init>(android.content.Context, android.util.AttributeSet); }
 
 
-# End of content from C:\Users\Alumnado2DAM\Desktop\Flutter1-SFR\Ej1\build\app\intermediates\aapt_proguard_file\release\aapt_rules.txt
+# End of content from C:\Users\Alumnado2DAM\Desktop\RepoFlutter\Flutter1-SFR\Ej1\build\app\intermediates\aapt_proguard_file\release\aapt_rules.txt
 # The proguard configuration file for the following section is C:\Users\Alumnado2DAM\.gradle\caches\8.9\transforms\2c0ba2094c9347b44169ea5648c68564\transformed\jetified-window-1.2.0\proguard.txt
 # Copyright (C) 2020 The Android Open Source Project
 #
@@ -386,7 +386,7 @@
   public *** apply(***);
 }
 # End of content from C:\Users\Alumnado2DAM\.gradle\caches\8.9\transforms\f1c5e152eb5311187d29732726d7a153\transformed\jetified-core-1.0.0\proguard.txt
-# The proguard configuration file for the following section is C:\Users\Alumnado2DAM\.gradle\caches\8.9\transforms\1fd9020d51fd243108e878bc1c3ce3e5\transformed\rules\lib\META-INF\proguard\androidx-annotations.pro
+# The proguard configuration file for the following section is C:\Users\Alumnado2DAM\.gradle\caches\8.9\transforms\8e70fbb1ffc74a5e222a2a0a833b1f81\transformed\rules\lib\META-INF\proguard\androidx-annotations.pro
 -keep,allowobfuscation @interface androidx.annotation.Keep
 -keep @androidx.annotation.Keep class * {*;}
 
@@ -406,7 +406,7 @@
   @androidx.annotation.DoNotInline <methods>;
 }
 
-# End of content from C:\Users\Alumnado2DAM\.gradle\caches\8.9\transforms\1fd9020d51fd243108e878bc1c3ce3e5\transformed\rules\lib\META-INF\proguard\androidx-annotations.pro
+# End of content from C:\Users\Alumnado2DAM\.gradle\caches\8.9\transforms\8e70fbb1ffc74a5e222a2a0a833b1f81\transformed\rules\lib\META-INF\proguard\androidx-annotations.pro
 # The proguard configuration file for the following section is <unknown>
 
 # End of content from <unknown>

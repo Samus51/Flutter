@@ -104,8 +104,8 @@ decimal
 AppLifecycleState.
 SystemChrome.setSystemUIOverlayStyle
 addWindowLayoutInfoListener
-TextInput.setEditableSizeAndTransform
 ROOT
+TextInput.setEditableSizeAndTransform
 COMPLETING_WAITING_CHILDREN
 enable_state_restoration
 RESULT_BASELINE_PROFILE_NOT_FOUND
@@ -125,6 +125,7 @@ io.flutter.embedding.android.OldGenHe...
 BITMAP_MASKABLE
 MOVE_CURSOR_BACKWARD_BY_CHARACTER
 kotlin.collections.List
+dev.flutter.pigeon.path_provider_andr...
 IS_OBSCURED
 label
 MOVE_CURSOR_FORWARD_BY_CHARACTER
@@ -194,8 +195,8 @@ it.parameterTypes
 kotlin.Long
 Completing
 java.lang.String
-addressRegion
 NOTIFICATIONS
+addressRegion
 TextInput.setClient
 resizeDown
 _resumed
@@ -301,15 +302,14 @@ getStateMethod
 DROP_SHADER_CACHE
 oemFeature.bounds
 kotlin.collections.ListIterator
-dev.flutter.pigeon.PathProviderApi.ge...
 CUSTOM_ACTION
 getKeyboardState
 TextInputClient.updateEditingStateWit...
 STANDARD
 cached_engine_id
 setRemoveOnCancelPolicy
-receive
 MUSIC
+receive
 NO_ACTIVITY
 newLayoutInfo
 forbidden
@@ -330,6 +330,7 @@ dimen
 java.util.ListIterator
 documents
 flutter/backgesture
+dev.flutter.pigeon.path_provider_andr...
 DefaultDispatcher
 QUIET
 source
@@ -337,7 +338,6 @@ kotlin.Double
 ALERT
 onActivityResult
 LocalizationChannel
-dev.flutter.pigeon.PathProviderApi.ge...
 removeListenerMethod
 view
 java.lang.Short
@@ -655,14 +655,12 @@ DORMANT
 HYBRID_ONLY
 image
 TextInputChannel
-kHdmi
 MOVIES
+kHdmi
 Failed
 OPACITY
 NonDisposableHandle
-dev.flutter.pigeon.PathProviderApi.ge...
 PODCASTS
-dev.flutter.pigeon.PathProviderApi.ge...
 TextInputType.name
 navigation_bar_height
 java.lang.annotation.Annotation
@@ -765,6 +763,7 @@ onDestroy
 IS_KEYBOARD_KEY
 personNameSuffix
 kotlin.jvm.functions.Function
+dev.flutter.pigeon.path_provider_andr...
 uri
 off
 url
@@ -826,6 +825,7 @@ getWindowLayoutComponentMethod
 receivers
 STARTED
 kotlin.Comparable
+dev.flutter.pigeon.path_provider_andr...
 consumer
 show_password
 on
@@ -838,6 +838,7 @@ android.support.customtabs.action.Cus...
 currentDisplay
 longPress
 COROUTINE_SUSPENDED
+dev.flutter.pigeon.path_provider_andr...
 Trace
 ACCESSIBLE_NAVIGATION
 Share.invoke
@@ -858,7 +859,6 @@ telephoneNumberNational
 .Companion
 observer
 character
-dev.flutter.pigeon.PathProviderApi.ge...
 EMAIL_ADDRESS
 java.lang.Long
 metaState
@@ -922,7 +922,6 @@ loader
 postalCode
 primaryColor
 personGivenName
-dev.flutter.pigeon.PathProviderApi.ge...
 pairs
 TextInput.setEditingState
 enableDomStorage
@@ -963,7 +962,6 @@ SystemUiMode.leanBack
 HAS_IMPLICIT_SCROLLING
 Dispatchers.Main.immediate
 onWindowLayoutChangeListenerRemoved
-dev.flutter.pigeon.PathProviderApi.ge...
 dev.flutter.pigeon.url_launcher_andro...
 location
 java.lang.Object
@@ -1049,8 +1047,8 @@ podcasts
 outState
 flutter/deferredcomponent
 elements
-java.lang.Comparable
 ALARMS
+java.lang.Comparable
 URI_MASKABLE
 ON_CREATE
 HAS_ENABLED_STATE
@@ -1341,8 +1339,8 @@ Marking id:tag_window_insets_animation_callback:2131165271 used because it match
     @dimen/compat_button_inset_horizontal_material
     @dimen/compat_button_inset_vertical_material
     @dimen/compat_control_corner_material
-    @dimen/compat_button_padding_horizontal_material
     @dimen/compat_button_padding_vertical_material
+    @dimen/compat_button_padding_horizontal_material
 @drawable/notification_bg : reachable=false
     @drawable/notification_bg_normal_pressed
     @drawable/notification_bg_normal
@@ -1478,9 +1476,9 @@ Marking id:tag_window_insets_animation_callback:2131165271 used because it match
     @dimen/notification_action_icon_size
     @style/Widget_Compat_NotificationActionText
 @layout/notification_template_custom_big : reachable=false
+    @layout/notification_template_icon_group
     @dimen/notification_large_icon_width
     @dimen/notification_large_icon_height
-    @layout/notification_template_icon_group
     @dimen/notification_right_side_padding_top
     @layout/notification_template_part_time
     @layout/notification_template_part_chronometer
@@ -1520,8 +1518,8 @@ Marking id:tag_window_insets_animation_callback:2131165271 used because it match
 @style/Widget_Compat_NotificationActionContainer : reachable=false
     @drawable/notification_action_background
 @style/Widget_Compat_NotificationActionText : reachable=false
-    @dimen/notification_action_text_size
     @color/androidx_core_secondary_text_default_material_light
+    @dimen/notification_action_text_size
 @xml/image_share_filepaths : reachable=true
 
 The root reachable resources are:
@@ -1724,84 +1722,84 @@ Unused resources are:
  style:TextAppearance_Compat_Notification_Title:2131492870
  style:Widget_Compat_NotificationActionContainer:2131492871
  style:Widget_Compat_NotificationActionText:2131492872
-Skipped unused resource res/anim-v21/fragment_fast_out_extra_slow_in.xml: 226 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/animator/fragment_close_enter.xml: 1709 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/animator/fragment_close_exit.xml: 1709 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/animator/fragment_fade_enter.xml: 444 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/animator/fragment_fade_exit.xml: 444 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/animator/fragment_open_enter.xml: 1709 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/animator/fragment_open_exit.xml: 1709 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/anim-v21/fragment_fast_out_extra_slow_in.xml: 230 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/animator/fragment_close_enter.xml: 2133 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/animator/fragment_close_exit.xml: 2133 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/animator/fragment_fade_enter.xml: 543 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/animator/fragment_fade_exit.xml: 543 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/animator/fragment_open_enter.xml: 2135 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/animator/fragment_open_exit.xml: 2135 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/drawable-v21/notification_action_background.xml: 2250 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/drawable/notification_bg.xml: 751 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/drawable/notification_bg_low.xml: 753 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/drawable/notification_icon_background.xml: 314 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/drawable/notification_tile_bg.xml: 319 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/drawable-ldpi-v4/ic_call_answer.png: 270 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable-mdpi-v4/ic_call_answer.png: 317 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable-hdpi-v4/ic_call_answer.png: 472 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable-xhdpi-v4/ic_call_answer.png: 623 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable-xxhdpi-v4/ic_call_answer.png: 884 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable-xxxhdpi-v4/ic_call_answer.png: 1171 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable-anydpi-v21/ic_call_answer.xml: 1388 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/drawable-ldpi-v4/ic_call_answer_low.png: 270 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable-mdpi-v4/ic_call_answer_low.png: 317 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable-hdpi-v4/ic_call_answer_low.png: 472 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable-xhdpi-v4/ic_call_answer_low.png: 623 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable-xxhdpi-v4/ic_call_answer_low.png: 884 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable-xxxhdpi-v4/ic_call_answer_low.png: 1171 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable-anydpi-v21/ic_call_answer_low.xml: 1318 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/drawable-ldpi-v4/ic_call_answer_video.png: 199 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable-mdpi-v4/ic_call_answer_video.png: 206 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable-hdpi-v4/ic_call_answer_video.png: 254 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable-xhdpi-v4/ic_call_answer_video.png: 290 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable-xxhdpi-v4/ic_call_answer_video.png: 384 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable-xxxhdpi-v4/ic_call_answer_video.png: 465 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable-anydpi-v21/ic_call_answer_video.xml: 804 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/drawable-ldpi-v4/ic_call_answer_video_low.png: 199 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable-mdpi-v4/ic_call_answer_video_low.png: 206 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable-hdpi-v4/ic_call_answer_video_low.png: 254 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable-xhdpi-v4/ic_call_answer_video_low.png: 290 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable-xxhdpi-v4/ic_call_answer_video_low.png: 384 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable-xxxhdpi-v4/ic_call_answer_video_low.png: 465 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable-anydpi-v21/ic_call_answer_video_low.xml: 734 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/drawable-ldpi-v4/ic_call_decline.png: 201 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable-mdpi-v4/ic_call_decline.png: 264 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable-hdpi-v4/ic_call_decline.png: 375 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable-xhdpi-v4/ic_call_decline.png: 452 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable-xxhdpi-v4/ic_call_decline.png: 628 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable-xxxhdpi-v4/ic_call_decline.png: 823 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable-anydpi-v21/ic_call_decline.xml: 1562 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/drawable-ldpi-v4/ic_call_decline_low.png: 201 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource res/drawable-mdpi-v4/ic_call_answer.png: 317 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource res/drawable-mdpi-v4/ic_call_answer_low.png: 317 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource res/drawable-mdpi-v4/ic_call_answer_video.png: 206 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource res/drawable-mdpi-v4/ic_call_answer_video_low.png: 206 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource res/drawable-mdpi-v4/ic_call_decline.png: 264 bytes (replaced with small dummy file of size 67 bytes)
 Skipped unused resource res/drawable-mdpi-v4/ic_call_decline_low.png: 264 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable-hdpi-v4/ic_call_decline_low.png: 375 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable-xhdpi-v4/ic_call_decline_low.png: 452 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable-xxhdpi-v4/ic_call_decline_low.png: 628 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable-xxxhdpi-v4/ic_call_decline_low.png: 823 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable-anydpi-v21/ic_call_decline_low.xml: 1492 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/drawable-v21/notification_action_background.xml: 1152 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/drawable/notification_bg.xml: 482 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/drawable/notification_bg_low.xml: 482 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/drawable-mdpi-v4/notification_bg_low_normal.9.png: 215 bytes (replaced with small dummy file of size 77 bytes)
-Skipped unused resource res/drawable-hdpi-v4/notification_bg_low_normal.9.png: 212 bytes (replaced with small dummy file of size 77 bytes)
-Skipped unused resource res/drawable-xhdpi-v4/notification_bg_low_normal.9.png: 221 bytes (replaced with small dummy file of size 77 bytes)
 Skipped unused resource res/drawable-mdpi-v4/notification_bg_low_pressed.9.png: 223 bytes (replaced with small dummy file of size 77 bytes)
-Skipped unused resource res/drawable-hdpi-v4/notification_bg_low_pressed.9.png: 225 bytes (replaced with small dummy file of size 77 bytes)
-Skipped unused resource res/drawable-xhdpi-v4/notification_bg_low_pressed.9.png: 252 bytes (replaced with small dummy file of size 77 bytes)
 Skipped unused resource res/drawable-mdpi-v4/notification_bg_normal.9.png: 215 bytes (replaced with small dummy file of size 77 bytes)
-Skipped unused resource res/drawable-hdpi-v4/notification_bg_normal.9.png: 212 bytes (replaced with small dummy file of size 77 bytes)
-Skipped unused resource res/drawable-xhdpi-v4/notification_bg_normal.9.png: 221 bytes (replaced with small dummy file of size 77 bytes)
 Skipped unused resource res/drawable-mdpi-v4/notification_bg_normal_pressed.9.png: 223 bytes (replaced with small dummy file of size 77 bytes)
-Skipped unused resource res/drawable-hdpi-v4/notification_bg_normal_pressed.9.png: 225 bytes (replaced with small dummy file of size 77 bytes)
-Skipped unused resource res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png: 247 bytes (replaced with small dummy file of size 77 bytes)
-Skipped unused resource res/drawable/notification_icon_background.xml: 224 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/drawable-hdpi-v4/notification_oversize_large_icon_bg.png: 909 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/drawable/notification_tile_bg.xml: 211 bytes (replaced with small dummy file of size 9 bytes)
 Skipped unused resource res/drawable-mdpi-v4/notify_panel_notification_icon_bg.png: 98 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource res/drawable-hdpi-v4/ic_call_answer.png: 472 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource res/drawable-hdpi-v4/ic_call_answer_low.png: 472 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource res/drawable-hdpi-v4/ic_call_answer_video.png: 254 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource res/drawable-hdpi-v4/ic_call_answer_video_low.png: 254 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource res/drawable-hdpi-v4/ic_call_decline.png: 375 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource res/drawable-hdpi-v4/ic_call_decline_low.png: 375 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource res/drawable-hdpi-v4/notification_bg_low_normal.9.png: 212 bytes (replaced with small dummy file of size 77 bytes)
+Skipped unused resource res/drawable-hdpi-v4/notification_bg_low_pressed.9.png: 225 bytes (replaced with small dummy file of size 77 bytes)
+Skipped unused resource res/drawable-hdpi-v4/notification_bg_normal.9.png: 212 bytes (replaced with small dummy file of size 77 bytes)
+Skipped unused resource res/drawable-hdpi-v4/notification_bg_normal_pressed.9.png: 225 bytes (replaced with small dummy file of size 77 bytes)
+Skipped unused resource res/drawable-hdpi-v4/notification_oversize_large_icon_bg.png: 909 bytes (replaced with small dummy file of size 67 bytes)
 Skipped unused resource res/drawable-hdpi-v4/notify_panel_notification_icon_bg.png: 107 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource res/drawable-xhdpi-v4/ic_call_answer.png: 623 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource res/drawable-xhdpi-v4/ic_call_answer_low.png: 623 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource res/drawable-xhdpi-v4/ic_call_answer_video.png: 290 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource res/drawable-xhdpi-v4/ic_call_answer_video_low.png: 290 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource res/drawable-xhdpi-v4/ic_call_decline.png: 452 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource res/drawable-xhdpi-v4/ic_call_decline_low.png: 452 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource res/drawable-xhdpi-v4/notification_bg_low_normal.9.png: 221 bytes (replaced with small dummy file of size 77 bytes)
+Skipped unused resource res/drawable-xhdpi-v4/notification_bg_low_pressed.9.png: 252 bytes (replaced with small dummy file of size 77 bytes)
+Skipped unused resource res/drawable-xhdpi-v4/notification_bg_normal.9.png: 221 bytes (replaced with small dummy file of size 77 bytes)
+Skipped unused resource res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png: 247 bytes (replaced with small dummy file of size 77 bytes)
 Skipped unused resource res/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png: 138 bytes (replaced with small dummy file of size 67 bytes)
-Skipped unused resource res/layout/browser_actions_context_menu_page.xml: 2472 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/layout/browser_actions_context_menu_row.xml: 1771 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/layout/custom_dialog.xml: 711 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/layout/ime_base_split_test_activity.xml: 317 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/layout/ime_secondary_split_test_activity.xml: 1235 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/layout-v21/notification_action.xml: 1566 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/layout-v21/notification_action_tombstone.xml: 1977 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/layout-v21/notification_template_custom_big.xml: 4602 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/layout-v21/notification_template_icon_group.xml: 1574 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/layout/notification_template_part_chronometer.xml: 461 bytes (replaced with small dummy file of size 9 bytes)
-Skipped unused resource res/layout/notification_template_part_time.xml: 462 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/drawable-xxhdpi-v4/ic_call_answer.png: 884 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource res/drawable-xxhdpi-v4/ic_call_answer_low.png: 884 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource res/drawable-xxhdpi-v4/ic_call_answer_video.png: 384 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource res/drawable-xxhdpi-v4/ic_call_answer_video_low.png: 384 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource res/drawable-xxhdpi-v4/ic_call_decline.png: 628 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource res/drawable-xxhdpi-v4/ic_call_decline_low.png: 628 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource res/drawable-xxxhdpi-v4/ic_call_answer.png: 1171 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource res/drawable-xxxhdpi-v4/ic_call_answer_low.png: 1171 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource res/drawable-xxxhdpi-v4/ic_call_answer_video.png: 465 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource res/drawable-xxxhdpi-v4/ic_call_answer_video_low.png: 465 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource res/drawable-xxxhdpi-v4/ic_call_decline.png: 823 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource res/drawable-xxxhdpi-v4/ic_call_decline_low.png: 823 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource res/drawable-anydpi-v21/ic_call_answer.xml: 1515 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/drawable-anydpi-v21/ic_call_answer_low.xml: 1373 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/drawable-anydpi-v21/ic_call_answer_video.xml: 931 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/drawable-anydpi-v21/ic_call_answer_video_low.xml: 789 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/drawable-anydpi-v21/ic_call_decline.xml: 1689 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/drawable-anydpi-v21/ic_call_decline_low.xml: 1547 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/layout/browser_actions_context_menu_page.xml: 3165 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/layout/browser_actions_context_menu_row.xml: 2211 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/layout/custom_dialog.xml: 828 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/layout/ime_base_split_test_activity.xml: 365 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/layout/ime_secondary_split_test_activity.xml: 1465 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/layout-v21/notification_action.xml: 2216 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/layout-v21/notification_action_tombstone.xml: 2677 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/layout-v21/notification_template_custom_big.xml: 6318 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/layout-v21/notification_template_icon_group.xml: 2432 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/layout/notification_template_part_chronometer.xml: 643 bytes (replaced with small dummy file of size 9 bytes)
+Skipped unused resource res/layout/notification_template_part_time.xml: 630 bytes (replaced with small dummy file of size 9 bytes)
