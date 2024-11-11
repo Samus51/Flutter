@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../drawer/menu_lateral.dart';
 
 class Enlace6 extends StatelessWidget {
   const Enlace6({super.key});
@@ -8,7 +9,18 @@ class Enlace6 extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text("Ejercicio 6"),
+        leading: Builder(
+          builder: (BuildContext context) {
+            return IconButton(
+              icon: const Icon(Icons.menu),
+              onPressed: () {
+                Scaffold.of(context).openDrawer(); 
+              },
+            );
+          },
+        ),
       ),
+      drawer: const MenuLateral(), 
       body: Padding(
         padding: const EdgeInsets.all(16.0),
         child: Column(

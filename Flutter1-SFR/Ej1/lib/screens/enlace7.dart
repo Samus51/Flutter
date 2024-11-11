@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import '../drawer/menu_lateral.dart'; 
 
 class Enlace7 extends StatelessWidget {
   const Enlace7({super.key});
@@ -26,7 +27,18 @@ class _MicontadorState extends State<Micontador> {
       appBar: AppBar(
         toolbarHeight: 80,
         title: const Text('Samuel Fernández Rodríguez'),
+        leading: Builder(
+          builder: (BuildContext context) {
+            return IconButton(
+              icon: const Icon(Icons.menu),
+              onPressed: () {
+                Scaffold.of(context).openDrawer();
+              },
+            );
+          },
+        ),
       ),
+      drawer: const MenuLateral(),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,

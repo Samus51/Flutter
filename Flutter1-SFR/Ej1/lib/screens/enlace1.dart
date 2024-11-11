@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import '../drawer/menu_lateral.dart';
 
 final Uri url = Uri.parse('https://github.com/Samus51/2DAM');
 
@@ -12,7 +13,18 @@ class Enlace1 extends StatelessWidget {
       appBar: AppBar(
         toolbarHeight: 80, 
         title: const Text('Ejercicio 1'), 
+        leading: Builder(
+          builder: (BuildContext context) {
+            return IconButton(
+              icon: const Icon(Icons.menu),
+              onPressed: () {
+                Scaffold.of(context).openDrawer();
+              },
+            );
+          },
+        ),
       ),
+      drawer: const MenuLateral(),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,

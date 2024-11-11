@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:holamundo/screens/enlace9.dart';
-import 'enlace8.dart';
-import 'enlace1.dart';
-import 'enlace2.dart';
-import 'enlace3.dart';
-import 'enlace4.dart';
+import '../screens/instagram/home_screen.dart';
+import '../screens/enlace1.dart';
+import '../screens/enlace2.dart';
+import '../screens/enlace3.dart';
+import '../screens/enlace4.dart';
 
-import 'enlace5.dart';
-import 'enlace6.dart';
-import 'enlace7.dart';
+import '../screens/enlace5.dart';
+import '../screens/enlace6.dart';
+import '../screens/enlace7.dart';
 class MenuLateral extends StatelessWidget {
   const MenuLateral({super.key});
 

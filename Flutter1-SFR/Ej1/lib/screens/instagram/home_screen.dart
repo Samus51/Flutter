@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
-import 'instagram/grid_view_widget.dart';
-import 'instagram/LastFootWidget.dart';
-import 'instagram/actions_widget.dart';
-import 'instagram/footer_widget.dart';
-import 'instagram/profile_widget.dart';
+
+import '../../drawer/menu_lateral.dart';
+import 'LastFootWidget.dart';
+import 'actions_widget.dart';
+import 'footer_widget.dart';
+import 'grid_view_widget.dart';
+import 'profile_widget.dart';
 
 void main() => runApp(const Enlace8());
 
@@ -18,13 +20,18 @@ class Enlace8 extends StatelessWidget {
         appBar: AppBar(
           toolbarHeight: 80,
           title: const Text('Ibai Llanos'),
-          leading: IconButton(
-            icon: const Icon(Icons.arrow_back),
-            onPressed: () {
-              Navigator.of(context).pop();
+          leading: Builder(
+            builder: (BuildContext context) {
+              return IconButton(
+                icon: const Icon(Icons.menu), 
+                onPressed: () {
+                  Scaffold.of(context).openDrawer();
+                },
+              );
             },
           ),
         ),
+        drawer: const MenuLateral(),
         body: const SingleChildScrollView(
           child: Column(
             children: [

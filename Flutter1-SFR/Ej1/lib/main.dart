@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:holamundo/screens/menu_lateral.dart';
+import 'package:holamundo/drawer/menu_lateral.dart';
 
 void main() => runApp(const MyApp());
 
@@ -13,12 +13,13 @@ class MyApp extends StatelessWidget {
       title: 'Menú Principal',
       theme: ThemeData(
         appBarTheme: const AppBarTheme(
-          backgroundColor: Color(0xFFE0F7FA), 
-          titleTextStyle: TextStyle(color: Colors.black, fontSize: 22, 
-), 
-          
+          backgroundColor: Color(0xFFE0F7FA),
+          titleTextStyle: TextStyle(
+            color: Colors.black,
+            fontSize: 22,
+          ),
         ),
-        primarySwatch: Colors.blue, 
+        primarySwatch: Colors.blue,
       ),
       home: Scaffold(
         appBar: AppBar(
@@ -26,7 +27,7 @@ class MyApp extends StatelessWidget {
         ),
         drawer: const MenuLateral(),
         body: const Center(
-          child: Text("Parte principal"),
+          child: Text("Drawer de Samuel Fernández Rodríguez"),
         ),
       ),
     );
