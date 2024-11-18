@@ -1,17 +1,12 @@
 import 'package:flutter/material.dart';
 import 'dart:math';
 import 'dart:async';
-import 'screens.dart';
-
-void main() {
-  runApp(const RandomImages());
-}
+import 'package:holamundo/drawer/menu_lateral.dart';
 
 class RandomImages extends StatefulWidget {
   const RandomImages({super.key});
 
   @override
-  // ignore: library_private_types_in_public_api
   _RandomImages createState() => _RandomImages();
 }
 
@@ -29,10 +24,14 @@ class _RandomImages extends State<RandomImages> {
 
   late Timer _timer;
   final Duration timeLimit = const Duration(seconds: 2);
-  bool pulsado = false;
+  bool imageTouched = false;
+  bool imageLocked = false;
   double xPosition = 0;
   double yPosition = 0;
-
+  double maxWidth = 0;
+  double maxHeight = 0;
+  String mensaje = "pol";
+  AlertDialog mensajito = AlertDialog(content: Text(mensaje),);
   @override
   void initState() {
     super.initState();
@@ -40,88 +39,84 @@ class _RandomImages extends State<RandomImages> {
     startTimer();
   }
 
+  @override
+  void didChangeDependencies() {
+    super.didChangeDependencies();
+    maxWidth = MediaQuery.of(context).size.width - 120;
+    maxHeight = MediaQuery.of(context).size.height - 250;
+  }
+
   void startTimer() {
-    _timer = Timer(timeLimit, () {
-      if (!pulsado) {
-        setState(() {
+    _timer = Timer.periodic(timeLimit, (timer) {
+      setState(() {
+        if (!imageTouched) {
           points -= 2;
-          getRandomImage();
-        });
-      }
-      startTimer();
+        }
+        imageLocked = false;
+        getRandomImage();
+      });
     });
   }
 
   @override
   Widget build(BuildContext context) {
-    // Obtención del tamaño de la pantalla en el build()
-    double maxWidth = MediaQuery.of(context).size.width - 120; // Restar el tamaño de la imagen
-    double maxHeight = MediaQuery.of(context).size.height - 150; // Restar más espacio para los puntos y la barra de la app
+    final theme = Theme.of(context);
 
-    // Calcular posiciones aleatorias dentro del tamaño de la pantalla, asegurando que no se sobrepongan con el texto de los puntos
-    xPosition = Random().nextDouble() * maxWidth;
-    yPosition = Random().nextDouble() * maxHeight; 
-
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: Scaffold(
-        backgroundColor: Colors.white,
-        appBar: AppBar(
-          title: const Text('Ejercicio 9'),
-          leading: Builder(
-            builder: (BuildContext context) {
-              return IconButton(
-                icon: const Icon(Icons.menu), 
-                onPressed: () {
-                  Scaffold.of(context).openDrawer(); 
-                },
-              );
-            },
+    return Scaffold(
+      backgroundColor: theme.scaffoldBackgroundColor,
+      appBar: AppBar(
+        title: const Text('Ejercicio 9'),
+        leading: Builder(
+          builder: (BuildContext context) {
+            return IconButton(
+              icon: const Icon(Icons.menu),
+              onPressed: () {
+                Scaffold.of(context).openDrawer();
+              },
+            );
+          },
+        ),
+      ),
+      drawer: const MenuLateral(),
+      body: Column(
+        children: [
+          Container(
+            padding: const EdgeInsets.all(10),
+            color: theme.primaryColor,
+            width: double.infinity,
+            child: Text(
+              'Puntos: $points',
+              style: TextStyle(
+                fontWeight: FontWeight.bold,
+                fontSize: 30,
+                color: theme.textTheme.bodyLarge?.color,
+              ),
+              textAlign: TextAlign.center,
+            ),
           ),
-        ),
-        drawer: const MenuLateral(), 
-        body: Column(
-          children: [
-            // Título de los puntos, que permanece fijo
-            Container(
-              padding: const EdgeInsets.all(10),
-              color: Colors.blueAccent,
-              width: double.infinity,
-              child: Text(
-                'Puntos: $points',
-                style: const TextStyle(
-                  fontWeight: FontWeight.bold,
-                  fontSize: 30,
-                  color: Colors.white,
-                ),
-                textAlign: TextAlign.center,
-              ),
-            ),
-            // Mostrar la imagen en una posición aleatoria
-            Expanded(
-              child: Stack(
-                children: [
-                  Positioned(
-                    top: yPosition,
-                    left: xPosition,
-                    child: GestureDetector(
-                      onTap: pulsado
-                          ? null
-                          : () {
-                              setState(() {
-                                points++;
-                                pulsado = true;
-                                getRandomImage();
-                              });
-                            },
-                      child: randomImage,
-                    ),
+          Expanded(
+            child: Stack(
+              children: [
+                Positioned(
+                  top: yPosition,
+                  left: xPosition,
+                  child: GestureDetector(
+                    onTap: () {
+                      if (!imageTouched && !imageLocked) {
+                        setState(() {
+                          points++;
+                          imageTouched = true;
+                          imageLocked = true;
+                        });
+                      }
+                    },
+                    child: randomImage,
                   ),
-                ],
-              ),
+                ),
+              ],
             ),
-          ],
-        ),
+          ),
+        ],
       ),
     );
   }
@@ -129,9 +124,14 @@ class _RandomImages extends State<RandomImages> {
   void getRandomImage() {
     Random random = Random();
     int randomNumber = random.nextInt(imagesPaths.length);
-    randomImage = Image.asset(imagesPaths[randomNumber], width: 120, height: 120);
+    randomImage =
+        Image.asset(imagesPaths[randomNumber], width: 120, height: 120);
 
-    pulsado = false;
+    xPosition = random.nextDouble() * maxWidth;
+    yPosition = random.nextDouble() * maxHeight;
+
+    imageTouched = false;
+    imageLocked = false;
   }
 
   @override
