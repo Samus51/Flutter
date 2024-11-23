@@ -67,7 +67,36 @@ flutter:
     - assets/images/orslok.jpg
     - assets/images/polispol.jpg
     - assets/images/vegetta777.jpg
+    - assets/images/gaben.jpg
+    - assets/images/gus.jpg
+    - assets/images/chama.jpg
+    - assets/images/chillguy.jpg
+    - assets/images/jarvis.jpg
+    - assets/images/jesse.jpg
+    - assets/images/jorge.jpg
+    - assets/images/kendrick.jpg
+    - assets/images/kiko.jpg
+    - assets/images/lolito.jpg
+    - assets/images/melapela.jpg
+    - assets/images/moros.jpg
+    - assets/images/nano.jpg
+    - assets/images/pov.jpg
+    - assets/images/sandia.jpg
+    - assets/images/soserious.jpg
+    - assets/images/walter.jpg
+    - assets/images/willy.jpg
+    - assets/images/xokas.jpg
     - assets/images/papa.jpg
+    
+    - assets/images/tiropichon.jpg
+    - assets/images/playita.jpg
+    - assets/images/lukasgrijander.jpg
+    - assets/images/cancun.jpg
+    - assets/images/barmanolo.jpg
+    - assets/images/arroyocoches.jpg
+    - assets/images/guarroman.jpg
+
+    
 
 
   # An image asset can refer to one or more resolution-specific "variants", see

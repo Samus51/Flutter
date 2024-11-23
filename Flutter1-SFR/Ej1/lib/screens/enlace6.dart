@@ -14,13 +14,13 @@ class Enlace6 extends StatelessWidget {
             return IconButton(
               icon: const Icon(Icons.menu),
               onPressed: () {
-                Scaffold.of(context).openDrawer(); 
+                Scaffold.of(context).openDrawer();
               },
             );
           },
         ),
       ),
-      drawer: const MenuLateral(), 
+      drawer: const MenuLateral(),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
         child: Column(
@@ -30,22 +30,22 @@ class Enlace6 extends StatelessWidget {
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                buildIconColumn("assets/images/ibai.jpg", "Icono 1"),
+                buildIconColumn("assets/images/ibai.jpg", "Ibai"),
               ],
             ),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
-                buildIconColumn("assets/images/ibai.jpg", "Icono 2"),
-                buildIconColumn("assets/images/ibai.jpg", "Icono 3"),
+                buildIconColumn("assets/images/pov.jpg", "Pov"),
+                buildIconColumn("assets/images/kiko.jpg", "Kiko"),
               ],
             ),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
-                buildIconColumn("assets/images/ibai.jpg", "Icono 4"),
-                buildIconColumn("assets/images/ibai.jpg", "Icono 5"),
-                buildIconColumn("assets/images/ibai.jpg", "Icono 6"),
+                buildIconColumn("assets/images/moros.jpg", "Matamoros"),
+                buildIconColumn("assets/images/papa.jpg", "Pablo Motos"),
+                buildIconColumn("assets/images/jorge.jpg", "Jorge Javier"),
               ],
             ),
           ],
@@ -60,10 +60,11 @@ class Enlace6 extends StatelessWidget {
       children: [
         Image.asset(
           imagePath,
-          width: 60,
-          height: 60,
+          width: 80,
+          height: 80,
+          fit: BoxFit.cover,
         ),
-        const SizedBox(height: 8), 
+        const SizedBox(height: 8),
         Text(label, style: const TextStyle(fontSize: 14)),
       ],
     );

@@ -7,51 +7,60 @@ class ActionsWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: [
-       
-        Row(
-          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-          children: [
-            _buildImageWithText("Cancún"),
-            _buildImageWithText("Arroyo Coches"),
-            _buildImageWithText("Tiro Pichón"),
-            _buildImageWithText("Bar Manolo"),
-            _buildImageWithText("Lukas Grijander"),
-          ],
+        SizedBox(
+          height: 100,
+          child: SingleChildScrollView(
+            scrollDirection: Axis.horizontal,
+            child: Row(
+              children: [
+                _buildImageWithText("Tiro Pichón", "tiropichon.jpg"),
+                _buildImageWithText("La Playita", "playita.jpg"),
+                _buildImageWithText("Lukas Grijander", "lukasgrijander.jpg"),
+                _buildImageWithText("Cancún", "cancun.jpg"),
+                _buildImageWithText("Bar Manolo", "barmanolo.jpg"),
+                _buildImageWithText("Arroyo Coches", "arroyocoches.jpg"),
+                _buildImageWithText("Guarromán", "guarroman.jpg"),
+              ],
+            ),
+          ),
         ),
-
         const SizedBox(height: 20),
       ],
     );
   }
 
-  Widget _buildImageWithText(String text) {
-    return Column(
-      children: [
-        ClipOval(
-          child: TextButton(
-            onPressed: () {},
-            style: TextButton.styleFrom(
-              padding: EdgeInsets.zero,
-              shape: const CircleBorder(),
-            ),
-            child: Image.asset(
-              "assets/images/ibai.jpg",
-              width: 50,
-              height: 50,
-              fit: BoxFit.cover,
-              errorBuilder: (context, error, stackTrace) {
-                return const Icon(Icons.error,
-                    size: 50);
-              },
+  Widget _buildImageWithText(String text, String imageFile) {
+    String imagePath = 'assets/images/$imageFile';
+
+    return Padding(
+      padding: const EdgeInsets.symmetric(horizontal: 10),
+      child: Column(
+        children: [
+          ClipOval(
+            child: TextButton(
+              onPressed: () {},
+              style: TextButton.styleFrom(
+                padding: EdgeInsets.zero,
+                shape: const CircleBorder(),
+              ),
+              child: Image.asset(
+                imagePath,
+                width: 60,
+                height: 60,
+                fit: BoxFit.cover,
+                errorBuilder: (context, error, stackTrace) {
+                  return const Icon(Icons.error, size: 50);
+                },
+              ),
             ),
           ),
-        ),
-        const SizedBox(height: 5), 
-        Text(
-          text,
-          style: const TextStyle(fontSize: 12), 
-        ),
-      ],
+          const SizedBox(height: 5),
+          Text(
+            text,
+            style: const TextStyle(fontSize: 12),
+          ),
+        ],
+      ),
     );
   }
 }

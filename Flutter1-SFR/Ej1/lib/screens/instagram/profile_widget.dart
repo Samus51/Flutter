@@ -43,13 +43,13 @@ class ProfileWidget extends StatelessWidget {
             ),
           ],
         ),
-        const SizedBox(height: 10), 
+        const SizedBox(height: 10),
         const Row(
           mainAxisAlignment: MainAxisAlignment.start,
           children: [
             SizedBox(width: 10),
             Text(
-              "Perro Sanchez es el mejor\nMe llamo Ibai Negro\nCuenta de Coña\n",
+              "Lolito Fdez mi idolo\nMe llamo Ibai Negro\nCuenta de Coña\n",
               style: TextStyle(),
             ),
           ],
@@ -63,19 +63,20 @@ class ProfileWidget extends StatelessWidget {
                 width: 350,
                 height: 25,
                 decoration: BoxDecoration(
-                  border: Border.all(color: Colors.black, width: 2),
+                  border: Border.all(color: Colors.white, width: 2),
                 ),
                 child: const Center(
                   child: Text(
                     "Editar mi perfil",
                     textAlign: TextAlign.center,
-                    style: TextStyle(fontSize: 16), 
+                    style: TextStyle(fontSize: 16),
                   ),
                 ),
               ),
-            )
+            ),
           ],
-        )
+        ),
+        const SizedBox(height: 30),
       ],
     );
   }

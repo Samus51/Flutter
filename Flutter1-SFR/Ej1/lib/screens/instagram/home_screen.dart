@@ -1,8 +1,16 @@
 import 'package:flutter/material.dart';
+
 import '../screens.dart';
 
-class Enlace8 extends StatelessWidget {
+class Enlace8 extends StatefulWidget {
   const Enlace8({super.key});
+
+  @override
+  State<Enlace8> createState() => _Enlace8State();
+}
+
+class _Enlace8State extends State<Enlace8> {
+  bool isColorMode = true;
 
   @override
   Widget build(BuildContext context) {
@@ -22,14 +30,20 @@ class Enlace8 extends StatelessWidget {
         ),
       ),
       drawer: const MenuLateral(),
-      body: const SingleChildScrollView(
+      body: SingleChildScrollView(
         child: Column(
           children: [
-            ProfileWidget(),
-            ActionsWidget(),
-            FooterWidget(),
-            GridViewWidget(),
-            LastFootWidget(),
+            const ProfileWidget(),
+            const ActionsWidget(),
+            FooterWidget(
+              onChangeMode: (bool newMode) {
+                setState(() {
+                  isColorMode = newMode;
+                });
+              },
+            ),
+            GridViewWidget(isColorMode: isColorMode),
+            const LastFootWidget(),
           ],
         ),
       ),

@@ -1,7 +1,16 @@
 import 'package:flutter/material.dart';
 
-class FooterWidget extends StatelessWidget {
-  const FooterWidget({super.key});
+class FooterWidget extends StatefulWidget {
+  final Function(bool) onChangeMode;
+
+  const FooterWidget({super.key, required this.onChangeMode});
+
+  @override
+  State<FooterWidget> createState() => _FooterWidgetState();
+}
+
+class _FooterWidgetState extends State<FooterWidget> {
+  int selectedIcon = 0;
 
   @override
   Widget build(BuildContext context) {
@@ -26,13 +35,43 @@ class FooterWidget extends StatelessWidget {
         Row(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
-            IconButton(
-              icon: const Icon(Icons.view_compact),
-              onPressed: () {},
+            Column(
+              children: [
+                IconButton(
+                  icon: const Icon(Icons.view_compact),
+                  onPressed: () {
+                    setState(() {
+                      selectedIcon = 0;
+                    });
+                    widget.onChangeMode(false);
+                  },
+                ),
+                if (selectedIcon == 0)
+                  Container(
+                    width: 40,
+                    height: 2,
+                    color: Colors.grey,
+                  ),
+              ],
             ),
-            IconButton(
-              icon: const Icon(Icons.account_box_outlined),
-              onPressed: () {},
+            Column(
+              children: [
+                IconButton(
+                  icon: const Icon(Icons.account_box_outlined),
+                  onPressed: () {
+                    setState(() {
+                      selectedIcon = 1;
+                    });
+                    widget.onChangeMode(true);
+                  },
+                ),
+                if (selectedIcon == 1)
+                  Container(
+                    width: 40,
+                    height: 2,
+                    color: Colors.grey,
+                  ),
+              ],
             ),
           ],
         ),
@@ -41,19 +80,9 @@ class FooterWidget extends StatelessWidget {
           child: Row(
             mainAxisAlignment: MainAxisAlignment.start,
             children: [
-              Container(
+              SizedBox(
                 width: 200,
                 height: 1,
-                decoration: BoxDecoration(
-                  color: Colors.white,
-                  border: Border(
-                    top: BorderSide(
-                      color: Colors.grey
-                          .withOpacity(0.7), 
-                      width: 2,
-                    ),
-                  ),
-                ),
               ),
             ],
           ),

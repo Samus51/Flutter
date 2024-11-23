@@ -6,42 +6,43 @@ class LastFootWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      height: 70, 
-      child: Row(
-        mainAxisAlignment: MainAxisAlignment.start,
-      children: [ Expanded(
+        height: 70,
+        child: Row(mainAxisAlignment: MainAxisAlignment.start, children: [
+          Expanded(
             child: IconButton(
-              onPressed: () {}, 
-              color: Colors.black,
+              onPressed: () {},
+              color: Colors.white,
               icon: const Icon(Icons.home),
             ),
-          ),Expanded(
+          ),
+          Expanded(
             child: IconButton(
-              onPressed: () {}, 
-              color: Colors.black,
+              onPressed: () {},
+              color: Colors.white,
               icon: const Icon(Icons.search),
             ),
-          )   ,Expanded(
+          ),
+          Expanded(
             child: IconButton(
               onPressed: () {},
-              color: Colors.black,
+              color: Colors.white,
               icon: const Icon(Icons.add_box_outlined),
             ),
-          )   ,Expanded(
+          ),
+          Expanded(
             child: IconButton(
               onPressed: () {},
-              color: Colors.black,
+              color: Colors.white,
               icon: const Icon(Icons.heart_broken),
             ),
-          )   ,Expanded(
+          ),
+          Expanded(
             child: IconButton(
-              onPressed: () {}, 
-              color: Colors.black,
+              onPressed: () {},
+              color: Colors.white,
               icon: const Icon(Icons.supervised_user_circle_rounded),
             ),
-          )      
-        ]));}
-      
-    
+          )
+        ]));
   }
-
+}
