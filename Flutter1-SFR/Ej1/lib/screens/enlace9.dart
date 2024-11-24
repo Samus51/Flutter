@@ -7,6 +7,7 @@ class RandomImages extends StatefulWidget {
   const RandomImages({super.key});
 
   @override
+  // ignore: library_private_types_in_public_api
   _RandomImages createState() => _RandomImages();
 }
 
@@ -49,10 +50,9 @@ class _RandomImages extends State<RandomImages> {
     _timer = Timer.periodic(timeLimit, (timer) {
       setState(() {
         if (!imageTouched) {
-          int prevPoints = points; // Guarda los puntos antes de restar
+          int prevPoints = points;
           points -= 2;
 
-          // Mostrar SnackBar solo si los puntos pasan a negativos
           if (prevPoints >= 0 && points < 0) {
             showSnackBar('¡Cuidado! Tienes puntos negativos :(');
           }
@@ -132,8 +132,8 @@ class _RandomImages extends State<RandomImages> {
   // Método para mostrar el SnackBar
   void showSnackBar(String message) {
     if (mounted) {
-      ScaffoldMessenger.of(context)
-          .clearSnackBars(); // Limpia SnackBars anteriores
+      // Limpia SnackBars anteriores
+      ScaffoldMessenger.of(context).clearSnackBars();
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(
           content: Text(message),
@@ -160,7 +160,7 @@ class _RandomImages extends State<RandomImages> {
   @override
   void dispose() {
     _timer.cancel();
-    ScaffoldMessenger.of(context).clearSnackBars(); // Limpia cualquier SnackBar
+    ScaffoldMessenger.of(context).clearSnackBars();
     super.dispose();
   }
 }
