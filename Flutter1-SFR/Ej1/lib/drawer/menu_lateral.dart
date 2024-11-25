@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:holamundo/screens/enlace9.dart';
-import '../screens/instagram/home_screen.dart';
+import '../screens/instagram/main_instagram.dart';
 import '../screens/enlace1.dart';
 import '../screens/enlace2.dart';
 import '../screens/enlace3.dart';
@@ -9,6 +9,7 @@ import '../screens/enlace4.dart';
 import '../screens/enlace5.dart';
 import '../screens/enlace6.dart';
 import '../screens/enlace7.dart';
+
 class MenuLateral extends StatelessWidget {
   const MenuLateral({super.key});
 
@@ -29,7 +30,7 @@ class MenuLateral extends StatelessWidget {
             ),
           ),
           Ink(
-            color: const Color(0xFF6B7FD7), 
+            color: const Color(0xFF6B7FD7),
             child: ListTile(
               title: const Text(
                 "Ejercicio 1",
@@ -43,11 +44,13 @@ class MenuLateral extends StatelessWidget {
             ),
           ),
           Ink(
-            color: const Color(0xFF6B7FD7), 
+            color: const Color(0xFF6B7FD7),
             child: ListTile(
               title: const Text(
                 "Ejercicio 2",
-                style: TextStyle(color: Colors.white,), 
+                style: TextStyle(
+                  color: Colors.white,
+                ),
               ),
               onTap: () {
                 Navigator.of(context).pop();
@@ -57,7 +60,7 @@ class MenuLateral extends StatelessWidget {
             ),
           ),
           Ink(
-            color: const Color(0xFF6B7FD7), 
+            color: const Color(0xFF6B7FD7),
             child: ListTile(
               title: const Text(
                 "Ejercicio 3",
@@ -83,7 +86,8 @@ class MenuLateral extends StatelessWidget {
                     builder: (BuildContext context) => const Enlace4()));
               },
             ),
-          ),Ink(
+          ),
+          Ink(
             color: const Color(0xFF6B7FD7),
             child: ListTile(
               title: const Text(
@@ -96,7 +100,8 @@ class MenuLateral extends StatelessWidget {
                     builder: (BuildContext context) => const Enlace5()));
               },
             ),
-          ),Ink(
+          ),
+          Ink(
             color: const Color(0xFF6B7FD7),
             child: ListTile(
               title: const Text(
@@ -109,7 +114,8 @@ class MenuLateral extends StatelessWidget {
                     builder: (BuildContext context) => const Enlace6()));
               },
             ),
-          ),Ink(
+          ),
+          Ink(
             color: const Color(0xFF6B7FD7),
             child: ListTile(
               title: const Text(
@@ -122,7 +128,8 @@ class MenuLateral extends StatelessWidget {
                     builder: (BuildContext context) => const Enlace7()));
               },
             ),
-          ),Ink(
+          ),
+          Ink(
             color: const Color(0xFF6B7FD7),
             child: ListTile(
               title: const Text(
@@ -132,10 +139,11 @@ class MenuLateral extends StatelessWidget {
               onTap: () {
                 Navigator.of(context).pop();
                 Navigator.of(context).push(MaterialPageRoute(
-                    builder: (BuildContext context) =>  const Enlace8()));
+                    builder: (BuildContext context) => const Enlace8()));
               },
             ),
-          ),Ink(
+          ),
+          Ink(
             color: const Color(0xFF6B7FD7),
             child: ListTile(
               title: const Text(
@@ -145,7 +153,7 @@ class MenuLateral extends StatelessWidget {
               onTap: () {
                 Navigator.of(context).pop();
                 Navigator.of(context).push(MaterialPageRoute(
-                    builder: (BuildContext context) => const RandomImages()));
+                    builder: (BuildContext context) => const Enlace9()));
               },
             ),
           ),

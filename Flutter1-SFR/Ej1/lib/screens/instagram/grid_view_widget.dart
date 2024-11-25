@@ -51,14 +51,9 @@ class GridViewWidget extends StatelessWidget {
         itemBuilder: (context, index) {
           return Container(
             color: Colors.grey[300],
-            child: ClipRRect(
-              borderRadius: BorderRadius.circular(10),
-              child: Image.asset(
-                images[index],
-                fit: BoxFit.cover,
-                width: double.infinity,
-                height: double.infinity,
-              ),
+            child: Image.asset(
+              images[index],
+              fit: BoxFit.cover,
             ),
           );
         },

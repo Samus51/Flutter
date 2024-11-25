@@ -6,8 +6,8 @@ export './Enlace4.dart';
 export './Enlace5.dart';
 export './Enlace6.dart';
 export './Enlace7.dart';
-export './Enlace9.dart';
-export './instagram/home_screen.dart';
+export './enlace9.dart';
+export 'instagram/main_instagram.dart';
 export 'instagram/last_foot_widget.dart';
 export './instagram/actions_widget.dart';
 export './instagram/footer_widget.dart';
@@ -15,4 +15,3 @@ export './instagram/header_widget.dart';
 export './instagram/grid_view_widget.dart';
 export './instagram/profile_widget.dart';
 export './instagram/rectangles_widget.dart';
-

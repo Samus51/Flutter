@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:holamundo/drawer/menu_lateral.dart';
+import 'screens/app_routes.dart';
 
 void main() => runApp(const MyApp());
 
@@ -36,22 +36,8 @@ class MyApp extends StatelessWidget {
         scaffoldBackgroundColor: Colors.black,
         primarySwatch: Colors.blue,
       ),
-      home: Scaffold(
-        appBar: AppBar(
-          title: const Text("Menú Principal"),
-          leading: IconButton(
-            icon: const Icon(Icons.menu),
-            onPressed: () {
-              Scaffold.of(context).openDrawer();
-            },
-          ),
-        ),
-        drawer: const MenuLateral(),
-        body: const Center(
-          child: Text("Drawer de Samuel Fernández Rodríguez",
-              style: TextStyle(fontSize: 18)),
-        ),
-      ),
+      initialRoute: AppRoutes.splash, // Aquí debe ir el SplashScreen
+      routes: AppRoutes.routes, // Mapa de rutas
     );
   }
 }

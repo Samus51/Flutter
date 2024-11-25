@@ -85,7 +85,9 @@ class _MicontadorState extends State<Micontador> {
 
   void decrementar() {
     setState(() {
-      contador--;
+      if (contador != 0) {
+        contador--;
+      }
     });
   }
 

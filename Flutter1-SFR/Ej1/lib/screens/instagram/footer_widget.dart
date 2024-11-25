@@ -10,7 +10,7 @@ class FooterWidget extends StatefulWidget {
 }
 
 class _FooterWidgetState extends State<FooterWidget> {
-  int selectedIcon = 0;
+  int selectedIcon = 1;
 
   @override
   Widget build(BuildContext context) {

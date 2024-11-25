@@ -3,15 +3,15 @@ import 'dart:math';
 import 'dart:async';
 import 'package:holamundo/drawer/menu_lateral.dart';
 
-class RandomImages extends StatefulWidget {
-  const RandomImages({super.key});
+class Enlace9 extends StatefulWidget {
+  const Enlace9({super.key});
 
   @override
   // ignore: library_private_types_in_public_api
-  _RandomImages createState() => _RandomImages();
+  _Enlace9 createState() => _Enlace9();
 }
 
-class _RandomImages extends State<RandomImages> {
+class _Enlace9 extends State<Enlace9> {
   int points = 0;
   late Image randomImage;
   final List<String> imagesPaths = [
