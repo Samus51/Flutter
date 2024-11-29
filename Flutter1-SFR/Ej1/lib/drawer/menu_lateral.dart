@@ -1,14 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:holamundo/screens/enlace9.dart';
-import '../screens/instagram/main_instagram.dart';
-import '../screens/enlace1.dart';
-import '../screens/enlace2.dart';
-import '../screens/enlace3.dart';
-import '../screens/enlace4.dart';
 
-import '../screens/enlace5.dart';
-import '../screens/enlace6.dart';
-import '../screens/enlace7.dart';
+import '../screens/screens.dart';
 
 class MenuLateral extends StatelessWidget {
   const MenuLateral({super.key});
@@ -154,6 +146,19 @@ class MenuLateral extends StatelessWidget {
                 Navigator.of(context).pop();
                 Navigator.of(context).push(MaterialPageRoute(
                     builder: (BuildContext context) => const Enlace9()));
+              },
+            ),
+          ), Ink(
+            color: const Color(0xFF6B7FD7),
+            child: ListTile(
+              title: const Text(
+                "Ejercicio 10 (No Dual)",
+                style: TextStyle(color: Colors.white),
+              ),
+              onTap: () {
+                Navigator.of(context).pop();
+                Navigator.of(context).push(MaterialPageRoute(
+                    builder: (BuildContext context) => const Enlace10()));
               },
             ),
           ),

@@ -14,6 +14,7 @@ class AppRoutes {
   static const String enlace6 = '/enlace6';
   static const String enlace7 = '/enlace7';
   static const String enlace9 = '/enlace9';
+  static const String enlace10 = '/enlace10';
   static const String instagramHome = '/main_instagram';
   static const String lastFoot = '/last_foot_widget';
   static const String actionsWidget = '/actions_widget';
@@ -34,18 +35,8 @@ class AppRoutes {
     enlace5: (context) => const Enlace5(),
     enlace6: (context) => const Enlace6(),
     enlace7: (context) => const Enlace7(),
-    enlace9: (context) => const Enlace9(),
     instagramHome: (context) => const Enlace8(),
-    lastFoot: (context) => const LastFootWidget(),
-    actionsWidget: (context) => const ActionsWidget(),
-    footerWidget: (context) => FooterWidget(
-          onChangeMode: (bool) {},
-        ),
-    headerWidget: (context) => const HeaderWidget(),
-    gridViewWidget: (context) => const GridViewWidget(
-          isColorMode: true,
-        ),
-    profileWidget: (context) => const ProfileWidget(),
-    rectanglesWidget: (context) => const RectanglesWidget(),
+    enlace9: (context) => const Enlace9(),
+    enlace10: (context) => const Enlace9(),
   };
 }

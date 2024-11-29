@@ -36,8 +36,8 @@ class MyApp extends StatelessWidget {
         scaffoldBackgroundColor: Colors.black,
         primarySwatch: Colors.blue,
       ),
-      initialRoute: AppRoutes.splash, // Aquí debe ir el SplashScreen
-      routes: AppRoutes.routes, // Mapa de rutas
+      initialRoute: AppRoutes.splash, 
+      routes: AppRoutes.routes, 
     );
   }
 }

@@ -7,6 +7,7 @@ export './Enlace5.dart';
 export './Enlace6.dart';
 export './Enlace7.dart';
 export './enlace9.dart';
+export './Enlace10.dart';
 export 'instagram/main_instagram.dart';
 export 'instagram/last_foot_widget.dart';
 export './instagram/actions_widget.dart';
