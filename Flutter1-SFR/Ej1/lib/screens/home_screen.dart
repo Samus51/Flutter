@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'screens.dart'; // Importa tu MenuLateral
+import 'screens.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});

@@ -11,8 +11,8 @@ class Enlace1 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        toolbarHeight: 80, 
-        title: const Text('Ejercicio 1'), 
+        toolbarHeight: 80,
+        title: const Text('Ejercicio 1'),
         leading: Builder(
           builder: (BuildContext context) {
             return IconButton(
@@ -28,7 +28,7 @@ class Enlace1 extends StatelessWidget {
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
-          mainAxisSize: MainAxisSize.min, 
+          mainAxisSize: MainAxisSize.min,
           children: <Widget>[
             Text(
               'Samuel Fernández Rodríguez',
@@ -46,7 +46,7 @@ class Enlace1 extends StatelessWidget {
                   decoration: TextDecoration.underline,
                 ),
               ),
-              textAlign: TextAlign.center, 
+              textAlign: TextAlign.center,
             ),
           ],
         ),

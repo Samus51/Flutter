@@ -148,7 +148,8 @@ class MenuLateral extends StatelessWidget {
                     builder: (BuildContext context) => const Enlace9()));
               },
             ),
-          ), Ink(
+          ),
+          Ink(
             color: const Color(0xFF6B7FD7),
             child: ListTile(
               title: const Text(
@@ -159,6 +160,20 @@ class MenuLateral extends StatelessWidget {
                 Navigator.of(context).pop();
                 Navigator.of(context).push(MaterialPageRoute(
                     builder: (BuildContext context) => const Enlace10()));
+              },
+            ),
+          ),
+          Ink(
+            color: const Color(0xFF6B7FD7),
+            child: ListTile(
+              title: const Text(
+                "Ejercicio 11",
+                style: TextStyle(color: Colors.white),
+              ),
+              onTap: () {
+                Navigator.of(context).pop();
+                Navigator.of(context).push(MaterialPageRoute(
+                    builder: (BuildContext context) => const Enlace11()));
               },
             ),
           ),

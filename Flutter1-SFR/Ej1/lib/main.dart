@@ -33,11 +33,11 @@ class MyApp extends StatelessWidget {
           displayMedium: TextStyle(
               color: Colors.black, fontSize: 28, fontWeight: FontWeight.bold),
         ),
-        scaffoldBackgroundColor: Colors.black,
+        scaffoldBackgroundColor: Colors.black, // Color de fondo de toda la app
         primarySwatch: Colors.blue,
       ),
-      initialRoute: AppRoutes.splash, 
-      routes: AppRoutes.routes, 
+      initialRoute: AppRoutes.splash,
+      routes: AppRoutes.routes,
     );
   }
 }

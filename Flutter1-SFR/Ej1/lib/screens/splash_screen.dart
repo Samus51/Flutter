@@ -13,7 +13,7 @@ class SplashScreenState extends State<SplashScreen> {
   void initState() {
     super.initState();
 
-    Future.delayed(const Duration(seconds: 5), () {
+    Future.delayed(const Duration(seconds: 3), () {
       // Verificar si el widget sigue montado antes de navegar
       if (mounted) {
         Navigator.of(context).pushReplacementNamed(AppRoutes.home);
@@ -26,7 +26,7 @@ class SplashScreenState extends State<SplashScreen> {
     return const Scaffold(
       body: Center(
         child: Text(
-          'Esta pantalla se mostrará durante 5 segundos',
+          'Esta pantalla se mostrará durante 3 segundos',
           style: TextStyle(fontSize: 24),
         ),
       ),
