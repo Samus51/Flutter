@@ -12,38 +12,7 @@ class Enlace11 extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Formulario Estudiantil y Adivina el Número',
-      theme: ThemeData(
-        useMaterial3: true,
-        appBarTheme: const AppBarTheme(
-          backgroundColor: Color(0xFFE0F7FA),
-          titleTextStyle: TextStyle(
-            color: Colors.black,
-            fontSize: 22,
-          ),
-          iconTheme: IconThemeData(color: Colors.black),
-        ),
-        scaffoldBackgroundColor: theme.scaffoldBackgroundColor,
-        inputDecorationTheme: InputDecorationTheme(
-          labelStyle: TextStyle(color: theme.textTheme.bodyLarge?.color),
-          hintStyle: TextStyle(color: theme.textTheme.bodyMedium?.color),
-          border: OutlineInputBorder(
-            borderSide: BorderSide(color: theme.primaryColor),
-            borderRadius: BorderRadius.circular(8.0),
-          ),
-          focusedBorder: OutlineInputBorder(
-            borderSide: BorderSide(color: theme.primaryColor),
-          ),
-          enabledBorder: OutlineInputBorder(
-            borderSide: BorderSide(color: theme.primaryColor.withOpacity(0.6)),
-          ),
-          errorStyle: TextStyle(color: Colors.red),
-        ),
-        textTheme: TextTheme(
-          bodyLarge: TextStyle(color: Colors.white),
-          bodyMedium: TextStyle(color: Colors.white),
-        ),
-        primarySwatch: Colors.blue,
-      ),
+      theme: theme, // Usar el theme global de main.dart
       home: const FormularioEstudiantil(),
     );
   }
@@ -53,7 +22,6 @@ class FormularioEstudiantil extends StatefulWidget {
   const FormularioEstudiantil({super.key});
 
   @override
-
   // ignore: library_private_types_in_public_api
   _FormularioEstudiantilState createState() => _FormularioEstudiantilState();
 }
@@ -79,6 +47,8 @@ class _FormularioEstudiantilState extends State<FormularioEstudiantil> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Ejercicio 11'),
+        backgroundColor:
+            theme.appBarTheme.backgroundColor, // Usar color del tema
       ),
       drawer: Drawer(
         backgroundColor: theme.scaffoldBackgroundColor,
@@ -92,8 +62,12 @@ class _FormularioEstudiantilState extends State<FormularioEstudiantil> {
           child: ListView(
             children: [
               TextFormField(
-                decoration: const InputDecoration(labelText: 'Nombre'),
-                style: TextStyle(color: Colors.white),
+                decoration: InputDecoration(
+                  labelText: 'Nombre',
+                  labelStyle:
+                      TextStyle(color: theme.textTheme.bodyLarge?.color),
+                ),
+                style: TextStyle(color: theme.textTheme.bodyLarge?.color),
                 keyboardType: TextInputType.name,
                 validator: (value) {
                   if (value == null || value.isEmpty) {
@@ -105,12 +79,14 @@ class _FormularioEstudiantilState extends State<FormularioEstudiantil> {
                   return null;
                 },
               ),
-              SizedBox(
-                height: 20,
-              ),
+              SizedBox(height: 20),
               TextFormField(
-                decoration: const InputDecoration(labelText: 'Correo'),
-                style: TextStyle(color: Colors.white),
+                decoration: InputDecoration(
+                  labelText: 'Correo',
+                  labelStyle:
+                      TextStyle(color: theme.textTheme.bodyLarge?.color),
+                ),
+                style: TextStyle(color: theme.textTheme.bodyLarge?.color),
                 keyboardType: TextInputType.emailAddress,
                 validator: (value) {
                   if (value == null || value.isEmpty || !value.contains('@')) {
@@ -119,12 +95,14 @@ class _FormularioEstudiantilState extends State<FormularioEstudiantil> {
                   return null;
                 },
               ),
-              SizedBox(
-                height: 20,
-              ),
+              SizedBox(height: 20),
               TextFormField(
-                decoration: const InputDecoration(labelText: 'Teléfono'),
-                style: TextStyle(color: Colors.white),
+                decoration: InputDecoration(
+                  labelText: 'Teléfono',
+                  labelStyle:
+                      TextStyle(color: theme.textTheme.bodyLarge?.color),
+                ),
+                style: TextStyle(color: theme.textTheme.bodyLarge?.color),
                 keyboardType: TextInputType.number,
                 validator: (value) {
                   if (value == null || value.isEmpty || value.length != 9) {
@@ -133,13 +111,14 @@ class _FormularioEstudiantilState extends State<FormularioEstudiantil> {
                   return null;
                 },
               ),
-              SizedBox(
-                height: 20,
-              ),
+              SizedBox(height: 20),
               DropdownButtonFormField<String>(
                 value: _nivelEducacional,
-                decoration:
-                    const InputDecoration(labelText: 'Nivel Educacional'),
+                decoration: InputDecoration(
+                  labelText: 'Nivel Educacional',
+                  labelStyle:
+                      TextStyle(color: theme.textTheme.bodyLarge?.color),
+                ),
                 onChanged: (value) {
                   setState(() {
                     _nivelEducacional = value!;
@@ -148,21 +127,20 @@ class _FormularioEstudiantilState extends State<FormularioEstudiantil> {
                 items: _nivelesEducativos
                     .map((nivel) => DropdownMenuItem(
                           value: nivel,
-                          child: Text(
-                            nivel,
-                            style: TextStyle(color: Colors.white),
-                          ),
+                          child: Text(nivel,
+                              style: TextStyle(
+                                  color: theme.textTheme.bodyLarge?.color)),
                         ))
                     .toList(),
-                dropdownColor: Colors.black,
-                style: TextStyle(color: Colors.white),
+                dropdownColor: theme
+                    .colorScheme.surface, // Usar el color de fondo del tema
+                style: TextStyle(color: theme.textTheme.bodyLarge?.color),
               ),
-              SizedBox(
-                height: 20,
-              ),
+              SizedBox(height: 20),
               Center(
                   child: Text("Horas de estudio",
-                      style: TextStyle(color: Colors.white))),
+                      style:
+                          TextStyle(color: theme.textTheme.bodyLarge?.color))),
               Slider(
                 value: _horasEstudioDiarias,
                 min: 0,
@@ -174,10 +152,14 @@ class _FormularioEstudiantilState extends State<FormularioEstudiantil> {
                     _horasEstudioDiarias = value;
                   });
                 },
+                activeColor:
+                    Colors.blueAccent, // Azul brillante para la parte activa
+                inactiveColor: Colors.blueAccent.withOpacity(
+                    0.3), // Azul con opacidad reducida para la parte inactiva
               ),
               CheckboxListTile(
-                title: const Text('Acepto los términos y condiciones',
-                    style: TextStyle(color: Colors.white)),
+                title: Text('Acepto los términos y condiciones',
+                    style: TextStyle(color: theme.textTheme.bodyLarge?.color)),
                 value: _aceptaTerminos,
                 onChanged: (bool? value) {
                   setState(() {
@@ -195,9 +177,7 @@ class _FormularioEstudiantilState extends State<FormularioEstudiantil> {
                 },
                 child: const Text('Enviar'),
               ),
-              SizedBox(
-                height: 20,
-              ),
+              SizedBox(height: 20),
               ElevatedButton(
                 onPressed: () {
                   Navigator.push(
@@ -249,6 +229,7 @@ class _AdivinaElNumeroState extends State<AdivinaElNumero> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Adivina el Número'),
+        backgroundColor: theme.appBarTheme.backgroundColor,
       ),
       backgroundColor: theme.scaffoldBackgroundColor,
       body: Padding(
@@ -259,8 +240,10 @@ class _AdivinaElNumeroState extends State<AdivinaElNumero> {
             TextFormField(
               controller: _controller,
               keyboardType: TextInputType.number,
-              decoration: const InputDecoration(
-                  labelText: 'Introduce un número entre 1 y 100'),
+              decoration: InputDecoration(
+                labelText: 'Introduce un número entre 1 y 100',
+                labelStyle: TextStyle(color: theme.textTheme.bodyLarge?.color),
+              ),
               onFieldSubmitted: (value) => _adivinarNumero(),
             ),
             const SizedBox(height: 20),
@@ -270,8 +253,10 @@ class _AdivinaElNumeroState extends State<AdivinaElNumero> {
             ),
             const SizedBox(height: 20),
             Text(_mensaje,
-                style:
-                    const TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
+                style: TextStyle(
+                    fontSize: 18,
+                    fontWeight: FontWeight.bold,
+                    color: theme.textTheme.bodyLarge?.color)),
             const SizedBox(height: 20),
             ElevatedButton(
               onPressed: _reiniciarJuego,
@@ -291,15 +276,15 @@ class _AdivinaElNumeroState extends State<AdivinaElNumero> {
       });
     } else if (numero < _numeroSecreto) {
       setState(() {
-        _mensaje = 'El número es mayor. ¡Intenta de nuevo!';
+        _mensaje = 'El número es mayor. Intenta nuevamente.';
       });
     } else if (numero > _numeroSecreto) {
       setState(() {
-        _mensaje = 'El número es menor. ¡Intenta de nuevo!';
+        _mensaje = 'El número es menor. Intenta nuevamente.';
       });
     } else {
       setState(() {
-        _mensaje = '¡Felicidades! Has acertado el número.';
+        _mensaje = '¡Correcto! Has adivinado el número.';
       });
     }
   }

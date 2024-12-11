@@ -16,6 +16,7 @@ class AppRoutes {
   static const String enlace9 = '/enlace9';
   static const String enlace10 = '/enlace10';
   static const String enlace11 = '/enlace11';
+  static const String enlace12 = '/enlace12';
 
   static const String instagramHome = '/main_instagram';
   static const String lastFoot = '/last_foot_widget';
@@ -38,6 +39,7 @@ class AppRoutes {
     enlace6: (context) => const Enlace6(),
     enlace7: (context) => const Enlace7(),
     enlace11: (context) => const Enlace11(),
+    enlace12: (context) => Enlace12(),
     instagramHome: (context) => const Enlace8(),
     enlace9: (context) => const Enlace9(),
     enlace10: (context) => const Enlace10(),
