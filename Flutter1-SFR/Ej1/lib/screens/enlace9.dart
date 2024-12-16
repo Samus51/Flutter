@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'dart:math';
 import 'dart:async';
-import 'package:holamundo/drawer/menu_lateral.dart';
+import 'package:shared_preferences/shared_preferences.dart'; // Importa SharedPreferences
+
+import 'screens.dart';
 
 class Enlace9 extends StatefulWidget {
   const Enlace9({super.key});
@@ -35,6 +37,7 @@ class _Enlace9 extends State<Enlace9> {
   @override
   void initState() {
     super.initState();
+    _loadPoints(); // Cargar puntos desde SharedPreferences
     getRandomImage();
     startTimer();
   }
@@ -44,6 +47,20 @@ class _Enlace9 extends State<Enlace9> {
     super.didChangeDependencies();
     maxWidth = MediaQuery.of(context).size.width - 120;
     maxHeight = MediaQuery.of(context).size.height - 250;
+  }
+
+  // Cargar puntos desde SharedPreferences
+  void _loadPoints() async {
+    final prefs = await SharedPreferences.getInstance();
+    setState(() {
+      points = prefs.getInt('points') ?? 0; // Si no hay valor guardado, 0 por defecto
+    });
+  }
+
+  // Guardar puntos en SharedPreferences
+  void _savePoints() async {
+    final prefs = await SharedPreferences.getInstance();
+    prefs.setInt('points', points); // Guarda los puntos
   }
 
   void startTimer() {
@@ -59,6 +76,7 @@ class _Enlace9 extends State<Enlace9> {
         }
         imageLocked = false;
         getRandomImage();
+        _savePoints(); // Guardar puntos cada vez que cambia
       });
     });
   }
@@ -115,6 +133,7 @@ class _Enlace9 extends State<Enlace9> {
                           }
                           imageTouched = true;
                           imageLocked = true;
+                          _savePoints(); // Guardar puntos cada vez que tocan la imagen
                         });
                       }
                     },
@@ -129,10 +148,8 @@ class _Enlace9 extends State<Enlace9> {
     );
   }
 
-  // Método para mostrar el SnackBar
   void showSnackBar(String message) {
     if (mounted) {
-      // Limpia SnackBars anteriores
       ScaffoldMessenger.of(context).clearSnackBars();
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(
