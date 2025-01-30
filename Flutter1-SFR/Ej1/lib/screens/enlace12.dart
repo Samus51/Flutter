@@ -29,6 +29,7 @@ class ConditionalForm extends StatefulWidget {
 
 class _ConditionalFormState extends State<ConditionalForm> {
   bool isLeft = true;
+  bool isRight = false;
   bool isDateSelected = false;
   final _formKeyLeft = GlobalKey<FormState>();
   final _formKeyRight = GlobalKey<FormState>();
@@ -71,19 +72,19 @@ class _ConditionalFormState extends State<ConditionalForm> {
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              ElevatedButton(
-                onPressed: () => setState(() {
-                  isLeft = true;
-                  isDateSelected = false;
-                }),
-                child: Text("Izquierda"),
-              ),
-              SizedBox(width: 20),
-              ElevatedButton(
-                onPressed: () => setState(() {
-                  isLeft = false;
-                }),
-                child: Text("Derecha"),
+              Switch(
+                activeColor: Colors.cyan,
+                activeTrackColor: Colors.green,
+                inactiveThumbColor: Colors.blueGrey.shade600,
+                inactiveTrackColor: Colors.grey.shade400,
+                splashRadius: 50.0,
+                value: !isLeft,
+                onChanged: (value) {
+                  setState(() {
+                    isLeft = !value;
+                    isRight = value;
+                  });
+                },
               ),
             ],
           ),
@@ -98,18 +99,21 @@ class _ConditionalFormState extends State<ConditionalForm> {
           ),
           ElevatedButton(
             onPressed: () {
-              // Solo validamos el formulario del lado que está activo
-              bool isLeftFormValid = isLeft
-                  ? _formKeyLeft.currentState?.validate() ?? false
-                  : true;
+              bool isFormValid = false;
 
-              bool isRightFormValid = !isLeft
-                  ? _formKeyRight.currentState?.validate() ?? false
-                  : true;
+              if (isLeft) {
+                // Validar solo el formulario de la izquierda
+                isFormValid = _formKeyLeft.currentState?.validate() ?? false;
+              } else {
+                // Validar solo el formulario de la derecha
+                isFormValid = _formKeyRight.currentState?.validate() ?? false;
+              }
 
+              // Validar que la fecha esté seleccionada en el formulario derecho
               bool isDateSelected = birthDate != null;
 
-              if (isLeftFormValid && isRightFormValid && isDateSelected) {
+              // Si el formulario es válido y en el caso de la parte derecha, si la fecha está seleccionada
+              if (isFormValid && (isLeft || (isRight && isDateSelected))) {
                 ScaffoldMessenger.of(context).showSnackBar(SnackBar(
                   content: Text("Formulario válido, todo en orden!"),
                   backgroundColor: Colors.green,
@@ -217,9 +221,10 @@ class _ConditionalFormState extends State<ConditionalForm> {
     );
   }
 
-  // Formulario para la posición derecha
   Widget buildRightForm() {
     return Column(
+      crossAxisAlignment:
+          CrossAxisAlignment.start, // Alineamos todo a la izquierda
       children: [
         GestureDetector(
           onTap: () async {
@@ -275,9 +280,7 @@ class _ConditionalFormState extends State<ConditionalForm> {
             ),
           ),
         ),
-        SizedBox(
-          height: 20,
-        ),
+        SizedBox(height: 20),
         DropdownButtonFormField<String>(
           value: selectedCity,
           decoration: InputDecoration(
@@ -324,9 +327,22 @@ class _ConditionalFormState extends State<ConditionalForm> {
             return null;
           },
         ),
-        Column(
-          children: hobbies.entries.map((hobby) {
-            return Row(
+        // Título de Hobbies con estilo mejorado
+        Padding(
+          padding: const EdgeInsets.symmetric(vertical: 10),
+          child: Text(
+            "Hobbies",
+            style: TextStyle(
+              fontSize: 20,
+              fontWeight: FontWeight.bold,
+              color: Theme.of(context).textTheme.bodyLarge?.color,
+            ),
+          ),
+        ),
+        ...hobbies.entries.map((hobby) {
+          return Padding(
+            padding: const EdgeInsets.symmetric(vertical: 5),
+            child: Row(
               children: [
                 Checkbox(
                   value: hobby.value,
@@ -336,12 +352,28 @@ class _ConditionalFormState extends State<ConditionalForm> {
                     });
                   },
                 ),
-                Text(hobby.key,
-                    style: TextStyle(
-                        color: Theme.of(context).textTheme.bodyLarge?.color)),
+                Text(
+                  hobby.key,
+                  style: TextStyle(
+                    fontSize: 16,
+                    color: Theme.of(context).textTheme.bodyLarge?.color,
+                  ),
+                ),
               ],
-            );
-          }).toList(),
+            ),
+          );
+        }),
+        // Título de Género con estilo mejorado
+        Padding(
+          padding: const EdgeInsets.symmetric(vertical: 10),
+          child: Text(
+            "Género",
+            style: TextStyle(
+              fontSize: 20,
+              fontWeight: FontWeight.bold,
+              color: Theme.of(context).textTheme.bodyLarge?.color,
+            ),
+          ),
         ),
         Column(
           children: [
